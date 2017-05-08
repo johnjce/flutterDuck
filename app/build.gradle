@@ -1,0 +1,27 @@
+apply plugin: 'com.android.application'
+android {
+    compileSdkVersion 24
+    buildToolsVersion '25.0.0'
+
+    defaultConfig {
+        applicationId "com.jhonts.flutterduck"
+        minSdkVersion 15
+        targetSdkVersion 24
+        versionCode 29
+        versionName "3.2"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    testCompile 'junit:junit:4.12'
+    compile 'com.android.support:appcompat-v7:24.2.1'
+    compile project(':BaseGameUtils')
+    compile files('libs/AppTracker.jar')
+    compile 'com.google.android.gms:play-services-ads:9.4.0'
+}

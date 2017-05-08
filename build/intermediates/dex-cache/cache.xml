@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\jhonts\Desktop\flappyDuck\flutterDuck\BaseGameUtils\build\intermediates\bundles\default\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a3ffa1dc3d048692835850365235a7bb97aaf0d8">
+        <dex dex="C:\Users\jhonts\Desktop\flappyDuck\flutterDuck\app\build\intermediates\pre-dexed\debug\classes_18d24c39344c2cc228ccff855caf5cf13168e9ba.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\jhonts\Desktop\flappyDuck\flutterDuck\app\libs\AppTracker.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="33afc2e047973f2629ce8d93b79c24522d05f1dc">
+        <dex dex="C:\Users\jhonts\Desktop\flappyDuck\flutterDuck\app\build\intermediates\pre-dexed\release\AppTracker_2326c35d6e4b515dbc1dee821df77afffe3df7da.jar" />
+    </item>
+
+</items>

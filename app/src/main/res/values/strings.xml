@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    @author John Jairo Castaño Echeverri
+    Copyright (c) <2017> <jjce- ..::jhonts::..>
+-->
+<resources>
+    <string name="app_name" translatable="false">Flappy Duck</string>
+    <string name="loading" translatable="false">loading...</string>
+    <string name="Load_Native_Ad" translatable="false">Load Native Ad</string>
+    <string name="current_score">Your score is</string>
+    <string name="best_score">Your best score is</string>
+    <string name="defaultscore" translatable="false">42</string>
+    <string name="medaille">Medaille</string>
+    <string name="play_button">Start to play</string>
+    <string name="about_button">about</string>
+    <string name="about_back_button">back</string>
+    <string name="revive_button">Revive for</string>
+    <string name="revive_notice">Points won\'t be uploaded to the leaderboard</string>
+    <string name="coins">coins</string>
+    <string name="medaille_image" translatable="false">Medaillenimage</string>
+    <string name="mute_button">Mutes the sound</string>
+    <string name="developer">Developer: ..::jhonts::..</string>
+    <string name="graphics">Graphics: ..::jhonts::..</string>
+    <string name="consulting">Consulting: ..::jhonts::..</string>
+    <string name="license">License: MIT</string>
+    <string name="source_code">web:\nhttps://johnjce.github.io/inicio/</string>
+    <string name="nyan_cat">Nyan Cat was drawn by Christopher Torres and もももも remixed the music by daniwell</string>
+    <string name="onscreen_score_text">Score:</string>
+    <string name="onscreen_coin_text">Coins:</string>
+    <string name="on_back_press">Press backbutton again to exit</string>
+    <string name="toast_achievement_50_coins">Achievement unlocked: 50 coins</string>
+    <string name="toast_achievement_toastification">Achievement unlocked: Toastification</string>
+    <string name="toast_achievement_bronze">Achievement unlocked: Bronze</string>
+    <string name="toast_achievement_silver">Achievement unlocked: Silver</string>
+    <string name="toast_achievement_gold">Achievement unlocked: Gold</string>
+
+    <string name="sign_in_failed">Failed to sign in. Please check your network connection and try again.</string>
+    <string name="app_misconfigured">The application is incorrectly configured. Check that the package name and signing certificate match the client ID created in Developer Console. Also, if the application is not yet published, check that the account you are trying to sign in with is listed as a tester account. See logs for more information.</string>
+    <string name="license_failed">License check failed.</string>
+    <string name="unknown_error">Unknown error.</string>
+    <string name="gamehelper_sign_in_failed">Failed to sign in. Please check your network connection and try again.</string>
+    <string name="gamehelper_app_misconfigured">The application is incorrectly configured. Check that the package name and signing certificate match the client ID created in Developer Console. Also, if the application is not yet published, check that the account you are trying to sign in with is listed as a tester account. See logs for more information.</string>
+    <string name="gamehelper_license_failed">License check failed.</string>
+    <string name="gamehelper_unknown_error">Unknown error.</string>
+</resources>

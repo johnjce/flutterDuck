@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="current_score">Tu puntuación:</string>
+    <string name="best_score">Mejor:</string>
+    <string name="medaille">Medalla</string>
+    <string name="about_back_button">Atras</string>
+    <string name="revive_button">Revivir por</string>
+    <string name="revive_notice">Clasificación General</string>
+    <string name="coins">Monedas</string>
+    <string name="play_button">Empezar</string>
+    <string name="about_button">Acerca</string>
+    <string name="mute_button">Silenciar</string>
+    <string name="developer">Developer: ..::jhonts::..</string>
+    <string name="graphics">Graphics: ..::jhonts::..</string>
+    <string name="consulting">Consulting: ..::jhonts::..</string>
+    <string name="license">License: MIT</string>
+    <string name="source_code">web:\nhttps://johnjce.github.io/inicio/</string>
+    <string name="nyan_cat">Nyan Cat was drawn by Christopher Torres and もももも remixed the music by daniwell</string>
+    <string name="onscreen_score_text">Puntos:</string>
+    <string name="onscreen_coin_text">Mónedas:</string>
+    <string name="on_back_press">Presiona atrás para intentarlo de nuevo</string>
+    <string name="toast_achievement_50_coins">Logro desbloqueado: 50 monedas</string>
+    <string name="toast_achievement_toastification">Logro alcanzado: nyan cat</string>
+    <string name="toast_achievement_bronze">Logro alcanzado: Bronze</string>
+    <string name="toast_achievement_silver">Logro alzanzado: Silver</string>
+    <string name="toast_achievement_gold">Logro desbloqueado: Gold</string>
+    <string name="sign_in_failed">Failed to sign in. Please check your network connection and try again.</string>
+    <string name="app_misconfigured">The application is incorrectly configured. Check that the package name and signing certificate match the client ID created in Developer Console. Also, if the application is not yet published, check that the account you are trying to sign in with is listed as a tester account. See logs for more information.</string>
+    <string name="license_failed">License check failed.</string>
+    <string name="unknown_error">Unknown error.</string>
+    <string name="gamehelper_sign_in_failed">Failed to sign in. Please check your network connection and try again.</string>
+    <string name="gamehelper_app_misconfigured">The application is incorrectly configured. Check that the package name and signing certificate match the client ID created in Developer Console. Also, if the application is not yet published, check that the account you are trying to sign in with is listed as a tester account. See logs for more information.</string>
+    <string name="gamehelper_license_failed">License check failed.</string>
+    <string name="gamehelper_unknown_error">Unknown error.</string>
+</resources>

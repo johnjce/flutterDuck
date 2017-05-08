@@ -1,0 +1,190 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\jhonts\Desktop\flappyDuck\flutterDuck\app\src\main\AndroidManifest.xml:7:1-68:12
+	package
+		ADDED from C:\Users\jhonts\Desktop\flappyDuck\flutterDuck\app\src\main\AndroidManifest.xml:8:5-37
+		INJECTED from C:\Users\jhonts\Desktop\flappyDuck\flutterDuck\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\jhonts\Desktop\flappyDuck\flutterDuck\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\jhonts\Desktop\flappyDuck\flutterDuck\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\jhonts\Desktop\flappyDuck\flutterDuck\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\jhonts\Desktop\flappyDuck\flutterDuck\app\src\main\AndroidManifest.xml:7:11-69
+	android:versionCode
+		INJECTED from C:\Users\jhonts\Desktop\flappyDuck\flutterDuck\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\jhonts\Desktop\flappyDuck\flutterDuck\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\jhonts\Desktop\flappyDuck\flutterDuck\app\src\main\AndroidManifest.xml:12:9-71
+MERGED from [com.google.android.gms:play-services-ads-lite:9.4.0] C:\Users\jhonts\.android\build-cache\f1efc3f524eb3a87e637328a47551c179f6fc842\output\AndroidManifest.xml:20:5-66
+	android:name
+		ADDED from C:\Users\jhonts\Desktop\flappyDuck\flutterDuck\app\src\main\AndroidManifest.xml:12:26-68
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from C:\Users\jhonts\Desktop\flappyDuck\flutterDuck\app\src\main\AndroidManifest.xml:14:9-83
+MERGED from [com.google.android.gms:play-services-ads-lite:9.4.0] C:\Users\jhonts\.android\build-cache\f1efc3f524eb3a87e637328a47551c179f6fc842\output\AndroidManifest.xml:21:5-78
+	android:name
+		ADDED from C:\Users\jhonts\Desktop\flappyDuck\flutterDuck\app\src\main\AndroidManifest.xml:14:26-80
+application
+ADDED from C:\Users\jhonts\Desktop\flappyDuck\flutterDuck\app\src\main\AndroidManifest.xml:17:5-66:19
+MERGED from [flutterDuck:BaseGameUtils:unspecified] C:\Users\jhonts\Desktop\flappyDuck\flutterDuck\BaseGameUtils\build\intermediates\bundles\default\AndroidManifest.xml:24:5-28:19
+MERGED from [com.android.support:appcompat-v7:24.2.1] C:\Users\jhonts\.android\build-cache\008957a58e8ae6afd169392f2000bd28b2e0fe24\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:24.2.1] C:\Users\jhonts\.android\build-cache\1a80cb93fb7ff80b1a91082477271c90add5e77b\output\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:24.2.1] C:\Users\jhonts\.android\build-cache\29c4dd2baae74ce587f838037d2f6d6d1216cd72\output\AndroidManifest.xml:23:5-20
+MERGED from [com.google.android.gms:play-services-games:9.4.0] C:\Users\jhonts\.android\build-cache\41074f00ba9bc47010b57d836dba8dae33ebf03b\output\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-drive:9.4.0] C:\Users\jhonts\.android\build-cache\58e1d526bcfce2378110d8c988bc69b26a4e4641\output\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-plus:9.4.0] C:\Users\jhonts\.android\build-cache\d0b428364d77c2d71ceb37154f3cdbaf8b9ce714\output\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-ads-lite:9.4.0] C:\Users\jhonts\.android\build-cache\f1efc3f524eb3a87e637328a47551c179f6fc842\output\AndroidManifest.xml:24:5-32:19
+MERGED from [com.google.android.gms:play-services-clearcut:9.4.0] C:\Users\jhonts\.android\build-cache\32f9c4d0e365f656bb58cf3d4d086de32e72e582\output\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-base:9.4.0] C:\Users\jhonts\.android\build-cache\a49524380c4a7d10174014a070c0eac48d3d38ae\output\AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-tasks:9.4.0] C:\Users\jhonts\.android\build-cache\a0c977b403e385ad9d670ce1d75da4f27af6a6e5\output\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-gass:9.4.0] C:\Users\jhonts\.android\build-cache\bf2722d116f88b925dd17c5f9dbd81bbdc01d8cd\output\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-basement:9.4.0] C:\Users\jhonts\.android\build-cache\9d035c4b7ecbcd062e89e95f98defdb9b78832dd\output\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:24.2.1] C:\Users\jhonts\.android\build-cache\9e2a64ced7c66e1c451e9e660baaecf21abba56a\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-fragment:24.2.1] C:\Users\jhonts\.android\build-cache\5a2c22ea9014466e1088cbec4978dc5a08a6a1f9\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:24.2.1] C:\Users\jhonts\.android\build-cache\7ba049f462bd020bfe1e4b61d7691043cf21da98\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:24.2.1] C:\Users\jhonts\.android\build-cache\4d164163026b38e40b307da122fc4246d25468f3\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:24.2.1] C:\Users\jhonts\.android\build-cache\f75ad331a4434e19a9be301183259e572642aa24\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:24.2.1] C:\Users\jhonts\.android\build-cache\5fe626242f8c8a061edd4ae4198346ebada99feb\output\AndroidManifest.xml:25:5-20
+	android:label
+		ADDED from C:\Users\jhonts\Desktop\flappyDuck\flutterDuck\app\src\main\AndroidManifest.xml:20:9-41
+	android:supportsRtl
+		ADDED from C:\Users\jhonts\Desktop\flappyDuck\flutterDuck\app\src\main\AndroidManifest.xml:21:9-35
+	android:allowBackup
+		ADDED from C:\Users\jhonts\Desktop\flappyDuck\flutterDuck\app\src\main\AndroidManifest.xml:18:9-35
+	android:icon
+		ADDED from C:\Users\jhonts\Desktop\flappyDuck\flutterDuck\app\src\main\AndroidManifest.xml:19:9-43
+	android:theme
+		ADDED from C:\Users\jhonts\Desktop\flappyDuck\flutterDuck\app\src\main\AndroidManifest.xml:22:9-67
+meta-data#com.google.android.gms.games.APP_ID
+ADDED from C:\Users\jhonts\Desktop\flappyDuck\flutterDuck\app\src\main\AndroidManifest.xml:25:9-104
+	android:value
+		ADDED from C:\Users\jhonts\Desktop\flappyDuck\flutterDuck\app\src\main\AndroidManifest.xml:25:71-101
+	android:name
+		ADDED from C:\Users\jhonts\Desktop\flappyDuck\flutterDuck\app\src\main\AndroidManifest.xml:25:20-70
+activity#com.jhonts.flutterduck.MainActivity
+ADDED from C:\Users\jhonts\Desktop\flappyDuck\flutterDuck\app\src\main\AndroidManifest.xml:27:9-35:20
+	android:screenOrientation
+		ADDED from C:\Users\jhonts\Desktop\flappyDuck\flutterDuck\app\src\main\AndroidManifest.xml:30:13-49
+	android:label
+		ADDED from C:\Users\jhonts\Desktop\flappyDuck\flutterDuck\app\src\main\AndroidManifest.xml:29:13-45
+	android:name
+		ADDED from C:\Users\jhonts\Desktop\flappyDuck\flutterDuck\app\src\main\AndroidManifest.xml:28:13-41
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from C:\Users\jhonts\Desktop\flappyDuck\flutterDuck\app\src\main\AndroidManifest.xml:31:13-34:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\jhonts\Desktop\flappyDuck\flutterDuck\app\src\main\AndroidManifest.xml:32:17-69
+	android:name
+		ADDED from C:\Users\jhonts\Desktop\flappyDuck\flutterDuck\app\src\main\AndroidManifest.xml:32:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\jhonts\Desktop\flappyDuck\flutterDuck\app\src\main\AndroidManifest.xml:33:17-77
+	android:name
+		ADDED from C:\Users\jhonts\Desktop\flappyDuck\flutterDuck\app\src\main\AndroidManifest.xml:33:27-74
+activity#com.jhonts.flutterduck.Game
+ADDED from C:\Users\jhonts\Desktop\flappyDuck\flutterDuck\app\src\main\AndroidManifest.xml:37:9-46:20
+	android:screenOrientation
+		ADDED from C:\Users\jhonts\Desktop\flappyDuck\flutterDuck\app\src\main\AndroidManifest.xml:41:13-49
+	android:label
+		ADDED from C:\Users\jhonts\Desktop\flappyDuck\flutterDuck\app\src\main\AndroidManifest.xml:39:13-45
+	android:configChanges
+		ADDED from C:\Users\jhonts\Desktop\flappyDuck\flutterDuck\app\src\main\AndroidManifest.xml:40:13-186
+	android:name
+		ADDED from C:\Users\jhonts\Desktop\flappyDuck\flutterDuck\app\src\main\AndroidManifest.xml:38:13-33
+intent-filter#android.intent.category.DEFAULT+com.jhonts.flutterduck.Game
+ADDED from C:\Users\jhonts\Desktop\flappyDuck\flutterDuck\app\src\main\AndroidManifest.xml:42:13-45:29
+action#com.jhonts.flutterduck.Game
+ADDED from C:\Users\jhonts\Desktop\flappyDuck\flutterDuck\app\src\main\AndroidManifest.xml:43:17-70
+	android:name
+		ADDED from C:\Users\jhonts\Desktop\flappyDuck\flutterDuck\app\src\main\AndroidManifest.xml:43:25-67
+category#android.intent.category.DEFAULT
+ADDED from C:\Users\jhonts\Desktop\flappyDuck\flutterDuck\app\src\main\AndroidManifest.xml:44:17-76
+	android:name
+		ADDED from C:\Users\jhonts\Desktop\flappyDuck\flutterDuck\app\src\main\AndroidManifest.xml:44:27-73
+activity#com.jhonts.flutterduck.About
+ADDED from C:\Users\jhonts\Desktop\flappyDuck\flutterDuck\app\src\main\AndroidManifest.xml:48:9-56:20
+	android:screenOrientation
+		ADDED from C:\Users\jhonts\Desktop\flappyDuck\flutterDuck\app\src\main\AndroidManifest.xml:51:13-49
+	android:label
+		ADDED from C:\Users\jhonts\Desktop\flappyDuck\flutterDuck\app\src\main\AndroidManifest.xml:50:13-45
+	android:name
+		ADDED from C:\Users\jhonts\Desktop\flappyDuck\flutterDuck\app\src\main\AndroidManifest.xml:49:13-34
+intent-filter#android.intent.category.DEFAULT+com.jhonts.flutterduck.About
+ADDED from C:\Users\jhonts\Desktop\flappyDuck\flutterDuck\app\src\main\AndroidManifest.xml:52:13-55:29
+action#com.jhonts.flutterduck.About
+ADDED from C:\Users\jhonts\Desktop\flappyDuck\flutterDuck\app\src\main\AndroidManifest.xml:53:17-71
+	android:name
+		ADDED from C:\Users\jhonts\Desktop\flappyDuck\flutterDuck\app\src\main\AndroidManifest.xml:53:25-68
+activity#com.apptracker.android.module.AppModuleActivity
+ADDED from C:\Users\jhonts\Desktop\flappyDuck\flutterDuck\app\src\main\AndroidManifest.xml:59:9-62:20
+	android:hardwareAccelerated
+		ADDED from C:\Users\jhonts\Desktop\flappyDuck\flutterDuck\app\src\main\AndroidManifest.xml:61:13-48
+	android:configChanges
+		ADDED from C:\Users\jhonts\Desktop\flappyDuck\flutterDuck\app\src\main\AndroidManifest.xml:59:19-89
+	android:name
+		ADDED from C:\Users\jhonts\Desktop\flappyDuck\flutterDuck\app\src\main\AndroidManifest.xml:60:13-75
+service#com.apptracker.android.track.AppTrackerService
+ADDED from C:\Users\jhonts\Desktop\flappyDuck\flutterDuck\app\src\main\AndroidManifest.xml:63:9-82
+	android:name
+		ADDED from C:\Users\jhonts\Desktop\flappyDuck\flutterDuck\app\src\main\AndroidManifest.xml:63:18-79
+uses-sdk
+INJECTED from C:\Users\jhonts\Desktop\flappyDuck\flutterDuck\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [flutterDuck:BaseGameUtils:unspecified] C:\Users\jhonts\Desktop\flappyDuck\flutterDuck\BaseGameUtils\build\intermediates\bundles\default\AndroidManifest.xml:22:5-44
+MERGED from [com.android.support:appcompat-v7:24.2.1] C:\Users\jhonts\.android\build-cache\008957a58e8ae6afd169392f2000bd28b2e0fe24\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:24.2.1] C:\Users\jhonts\.android\build-cache\1a80cb93fb7ff80b1a91082477271c90add5e77b\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:24.2.1] C:\Users\jhonts\.android\build-cache\29c4dd2baae74ce587f838037d2f6d6d1216cd72\output\AndroidManifest.xml:21:5-43
+MERGED from [com.google.android.gms:play-services-games:9.4.0] C:\Users\jhonts\.android\build-cache\41074f00ba9bc47010b57d836dba8dae33ebf03b\output\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-drive:9.4.0] C:\Users\jhonts\.android\build-cache\58e1d526bcfce2378110d8c988bc69b26a4e4641\output\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-plus:9.4.0] C:\Users\jhonts\.android\build-cache\d0b428364d77c2d71ceb37154f3cdbaf8b9ce714\output\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-ads:9.4.0] C:\Users\jhonts\.android\build-cache\be3913e25b690cab4fcfd3d04062a0e07f25fc4b\output\AndroidManifest.xml:19:5-42
+MERGED from [com.google.android.gms:play-services-ads-lite:9.4.0] C:\Users\jhonts\.android\build-cache\f1efc3f524eb3a87e637328a47551c179f6fc842\output\AndroidManifest.xml:23:5-42
+MERGED from [com.google.android.gms:play-services-clearcut:9.4.0] C:\Users\jhonts\.android\build-cache\32f9c4d0e365f656bb58cf3d4d086de32e72e582\output\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:9.4.0] C:\Users\jhonts\.android\build-cache\a49524380c4a7d10174014a070c0eac48d3d38ae\output\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-tasks:9.4.0] C:\Users\jhonts\.android\build-cache\a0c977b403e385ad9d670ce1d75da4f27af6a6e5\output\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-gass:9.4.0] C:\Users\jhonts\.android\build-cache\bf2722d116f88b925dd17c5f9dbd81bbdc01d8cd\output\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:9.4.0] C:\Users\jhonts\.android\build-cache\9d035c4b7ecbcd062e89e95f98defdb9b78832dd\output\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:24.2.1] C:\Users\jhonts\.android\build-cache\9e2a64ced7c66e1c451e9e660baaecf21abba56a\output\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:24.2.1] C:\Users\jhonts\.android\build-cache\5a2c22ea9014466e1088cbec4978dc5a08a6a1f9\output\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:24.2.1] C:\Users\jhonts\.android\build-cache\7ba049f462bd020bfe1e4b61d7691043cf21da98\output\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:24.2.1] C:\Users\jhonts\.android\build-cache\4d164163026b38e40b307da122fc4246d25468f3\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:24.2.1] C:\Users\jhonts\.android\build-cache\f75ad331a4434e19a9be301183259e572642aa24\output\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:24.2.1] C:\Users\jhonts\.android\build-cache\5fe626242f8c8a061edd4ae4198346ebada99feb\output\AndroidManifest.xml:21:5-23:58
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:24.2.1] C:\Users\jhonts\.android\build-cache\008957a58e8ae6afd169392f2000bd28b2e0fe24\output\AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		INJECTED from C:\Users\jhonts\Desktop\flappyDuck\flutterDuck\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\jhonts\Desktop\flappyDuck\flutterDuck\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\jhonts\Desktop\flappyDuck\flutterDuck\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\jhonts\Desktop\flappyDuck\flutterDuck\app\src\main\AndroidManifest.xml
+meta-data#unityplayer.ForwardNativeEventsToDalvik
+ADDED from [flutterDuck:BaseGameUtils:unspecified] C:\Users\jhonts\Desktop\flappyDuck\flutterDuck\BaseGameUtils\build\intermediates\bundles\default\AndroidManifest.xml:25:9-27:36
+	android:value
+		ADDED from [flutterDuck:BaseGameUtils:unspecified] C:\Users\jhonts\Desktop\flappyDuck\flutterDuck\BaseGameUtils\build\intermediates\bundles\default\AndroidManifest.xml:27:13-33
+	android:name
+		ADDED from [flutterDuck:BaseGameUtils:unspecified] C:\Users\jhonts\Desktop\flappyDuck\flutterDuck\BaseGameUtils\build\intermediates\bundles\default\AndroidManifest.xml:26:13-67
+activity#com.google.android.gms.ads.AdActivity
+ADDED from [com.google.android.gms:play-services-ads-lite:9.4.0] C:\Users\jhonts\.android\build-cache\f1efc3f524eb3a87e637328a47551c179f6fc842\output\AndroidManifest.xml:26:9-29:64
+	android:configChanges
+		ADDED from [com.google.android.gms:play-services-ads-lite:9.4.0] C:\Users\jhonts\.android\build-cache\f1efc3f524eb3a87e637328a47551c179f6fc842\output\AndroidManifest.xml:28:13-122
+	android:theme
+		ADDED from [com.google.android.gms:play-services-ads-lite:9.4.0] C:\Users\jhonts\.android\build-cache\f1efc3f524eb3a87e637328a47551c179f6fc842\output\AndroidManifest.xml:29:13-61
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads-lite:9.4.0] C:\Users\jhonts\.android\build-cache\f1efc3f524eb3a87e637328a47551c179f6fc842\output\AndroidManifest.xml:27:13-65
+activity#com.google.android.gms.ads.purchase.InAppPurchaseActivity
+ADDED from [com.google.android.gms:play-services-ads-lite:9.4.0] C:\Users\jhonts\.android\build-cache\f1efc3f524eb3a87e637328a47551c179f6fc842\output\AndroidManifest.xml:30:9-31:52
+	android:theme
+		ADDED from [com.google.android.gms:play-services-ads-lite:9.4.0] C:\Users\jhonts\.android\build-cache\f1efc3f524eb3a87e637328a47551c179f6fc842\output\AndroidManifest.xml:31:13-50
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads-lite:9.4.0] C:\Users\jhonts\.android\build-cache\f1efc3f524eb3a87e637328a47551c179f6fc842\output\AndroidManifest.xml:30:19-91
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:9.4.0] C:\Users\jhonts\.android\build-cache\a49524380c4a7d10174014a070c0eac48d3d38ae\output\AndroidManifest.xml:20:9-22:45
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:9.4.0] C:\Users\jhonts\.android\build-cache\a49524380c4a7d10174014a070c0eac48d3d38ae\output\AndroidManifest.xml:22:19-43
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:9.4.0] C:\Users\jhonts\.android\build-cache\a49524380c4a7d10174014a070c0eac48d3d38ae\output\AndroidManifest.xml:21:19-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:9.4.0] C:\Users\jhonts\.android\build-cache\a49524380c4a7d10174014a070c0eac48d3d38ae\output\AndroidManifest.xml:20:19-85
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:9.4.0] C:\Users\jhonts\.android\build-cache\9d035c4b7ecbcd062e89e95f98defdb9b78832dd\output\AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:9.4.0] C:\Users\jhonts\.android\build-cache\9d035c4b7ecbcd062e89e95f98defdb9b78832dd\output\AndroidManifest.xml:23:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:9.4.0] C:\Users\jhonts\.android\build-cache\9d035c4b7ecbcd062e89e95f98defdb9b78832dd\output\AndroidManifest.xml:22:13-58
