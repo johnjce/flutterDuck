@@ -360,7 +360,7 @@
     <string name="ad_unit_id" translatable="false">KoLqQDo5fNR9rWPBSfJ7uO6EfRar2viU</string>
     <string name="app_id" translatable="false">508732765831</string>
     <string name="app_misconfigured">The application is incorrectly configured. Check that the package name and signing certificate match the client ID created in Developer Console. Also, if the application is not yet published, check that the account you are trying to sign in with is listed as a tester account. See logs for more information.</string>
-    <string name="app_name" translatable="false">Flappy Duck</string>
+    <string name="app_name" translatable="false">Flutter Duck</string>
     <string name="best_score">Your best score is</string>
     <string name="coins">coins</string>
     <string msgid="2523291102206661146" name="common_google_play_services_enable_button">Enable</string>
@@ -383,7 +383,7 @@
     <string name="common_open_on_phone">Open on phone</string>
     <string name="common_signin_button_text">Sign in</string>
     <string name="common_signin_button_text_long">Sign in with Google</string>
-    <string name="consulting">Consulting: repat</string>
+    <string name="consulting">Consulting: ..::jhonts::..</string>
     <string name="create_calendar_message">Allow Ad to create a calendar event?</string>
     <string name="create_calendar_title">Create calendar event</string>
     <string name="current_score">Your score is</string>

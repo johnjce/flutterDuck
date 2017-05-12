@@ -37,14 +37,12 @@ import java.util.Timer;
 import java.util.TimerTask;
 
 public class GameView extends SurfaceView{
-    
-    /** Milliseconds for game timer tick */
+
     public static final long UPDATE_INTERVAL = 50;        // = 20 FPS
     
     private Timer timer = new Timer();
     private TimerTask timerTask;
-    
-    /** The surfaceholder needed for the canvas drawing */
+
     private SurfaceHolder holder;
     
     private Game game;
@@ -104,16 +102,13 @@ public class GameView extends SurfaceView{
     @Override
     public boolean performClick() {
         return super.performClick();
-        // Just to remove the stupid warning
     }
     
     @Override
     public boolean onTouchEvent(MotionEvent event) {
         performClick();
-        if(event.getAction() == MotionEvent.ACTION_DOWN  // Only for "touchdowns"
-                && !this.player.isDead()){ // No support for dead players
+        if(event.getAction() == MotionEvent.ACTION_DOWN && !this.player.isDead()){
             if(tutorialIsShown){
-                // dismiss tutorial
                 tutorialIsShown = false;
                 resume();
                 this.player.onTap();
@@ -127,29 +122,21 @@ public class GameView extends SurfaceView{
         }
         return true;
     }
-    
-    /**
-     * content of the timertask
-     */
+
     public void run() {
         checkPasses();
         checkOutOfRange();
         checkCollision();
         createObstacle();
         move();
-
         draw();
     }
-    
-    /**
-     * Draw Tutorial
-     */
+
     public void showTutorial(){
         player.move();
         pauseButton.move();
         
         while(!holder.getSurface().isValid()){
-            /*wait*/
             try { Thread.sleep(10); } catch (InterruptedException e) { e.printStackTrace(); }
         }
         
@@ -182,13 +169,9 @@ public class GameView extends SurfaceView{
         paused = false;
         startTimer();
     }
-    
-    /**
-     * Draws all gameobjects on the surface
-     */
+
     private void draw() {
         while(!holder.getSurface().isValid()){
-            /*wait*/
             try { Thread.sleep(10); } catch (InterruptedException e) { e.printStackTrace(); }
         }
         Canvas canvas = holder.lockCanvas();
@@ -196,11 +179,6 @@ public class GameView extends SurfaceView{
         holder.unlockCanvasAndPost(canvas);
     }
 
-    /**
-     * Draws everything normal,
-     * except the player will only be drawn, when the parameter is true
-     * @param drawPlayer
-     */
     private void drawCanvas(Canvas canvas, boolean drawPlayer){
         background.draw(canvas);
         for(Obstacle r : obstacles){
@@ -214,8 +192,7 @@ public class GameView extends SurfaceView{
         }
         frontground.draw(canvas);
         pauseButton.draw(canvas);
-        
-        // Score Text
+
         Paint paint = new Paint();
         paint.setColor(Color.BLACK);
         paint.setTextSize(getScoreTextMetrics());
@@ -223,57 +200,41 @@ public class GameView extends SurfaceView{
                         + " / " + game.getResources().getString(R.string.onscreen_coin_text) + " " + game.coins,
                         0, getScoreTextMetrics(), paint);
     }
-    
-    /**
-     * Let the player fall to the ground
-     */
+
     private void playerDeadFall(){
         player.dead();
         do{
             player.move();
             draw();
-            // sleep
             try { Thread.sleep(UPDATE_INTERVAL/4); } catch (InterruptedException e) { e.printStackTrace(); }
         }while(!player.isTouchingGround());
     }
-    
-    /**
-     * Checks whether an obstacle is passed.
-     */
+
     private void checkPasses(){
         for(Obstacle o : obstacles){
             if(o.isPassed()){
-                if(!o.isAlreadyPassed){    // probably not needed
+                if(!o.isAlreadyPassed){
                     o.onPass();
                     createPowerUp();
                 }
             }
         }
     }
-    
-    /**
-     * Creates a toast with a certain chance
-     */
+
     private void createPowerUp(){
-        // Toast
-        if(game.accomplishmentBox.points >= Toast.POINTS_TO_TOAST /*&& powerUps.size() < 1*/ && !(player instanceof NyanCat)){
-            // If no powerUp is present and you have more than / equal 42 points
-            if(game.accomplishmentBox.points == Toast.POINTS_TO_TOAST){    // First time 100 % chance
+        if(game.accomplishmentBox.points >= Toast.POINTS_TO_TOAST && !(player instanceof NyanCat)){
+            if(game.accomplishmentBox.points == Toast.POINTS_TO_TOAST){
                 powerUps.add(new Toast(this, game));
-            } else if(Math.random()*100 < 33){    // 33% chance
+            } else if(Math.random()*100 < 33){
                 powerUps.add(new Toast(this, game));
             }
         }
         
         if((powerUps.size() < 1) && (Math.random()*100 < 20)){
-            // If no powerUp is present and 20% chance
             powerUps.add(new Coin(this, game));
         }
     }
-    
-    /**
-     * Checks whether the obstacles or powerUps are out of range and deletes them
-     */
+
     private void checkOutOfRange(){
         for(int i=0; i<obstacles.size(); i++){
             if(this.obstacles.get(i).isOutOfRange()){
@@ -288,10 +249,7 @@ public class GameView extends SurfaceView{
             }
         }
     }
-    
-    /**
-     * Checks collisions and performs the action
-     */
+
     private void checkCollision(){
         for(Obstacle o : obstacles){
             if(o.isColliding(player)){
@@ -310,19 +268,13 @@ public class GameView extends SurfaceView{
             gameOver();
         }
     }
-    
-    /**
-     * if no obstacle is present a new one is created
-     */
+
     private void createObstacle(){
         if(obstacles.size() < 1){
             obstacles.add(new Obstacle(this, game, getTheme()));
         }
     }
-    
-    /**
-     * Update sprite movements
-     */
+
     private void move(){
         for(Obstacle o : obstacles){
             o.setSpeedX(-getSpeedX());
@@ -342,32 +294,22 @@ public class GameView extends SurfaceView{
         
         player.move();
     }
-    
-    /**
-     * Changes the player to Nyan Cat
-     */
+
     public void changeToNyanCat(){
         game.accomplishmentBox.achievement_toastification = true;
-        if(game.getApiClient().isConnected()){
-            Games.Achievements.unlock(game.getApiClient(), getResources().getString(R.string.achievement_toastification));
-        }else{
-            game.handler.sendMessage(Message.obtain(game.handler,1,R.string.toast_achievement_toastification, MyHandler.SHOW_TOAST));
-        }
-        
+        game.handler.sendMessage(Message.obtain(game.handler,1,R.string.toast_achievement_toastification, MyHandler.SHOW_TOAST));
+
         PlayableCharacter tmp = this.player;
         this.player = new NyanCat(this, game);
         this.player.setX(tmp.getX());
         this.player.setY(tmp.getY());
         this.player.setSpeedX(tmp.getSpeedX());
         this.player.setSpeedY(tmp.getSpeedY());
-        
+
         game.musicShouldPlay = true;
         Game.musicPlayer.start();
     }
 
-    /**
-     * return the player to Duck
-     */
     public void changeToDuck(){
         game.accomplishmentBox.achievement_toastification = false;
 
@@ -382,28 +324,13 @@ public class GameView extends SurfaceView{
         Game.musicPlayer.stop();
     }
 
-
-
-
-    /**
-     * return the speed of the obstacles/duck
-     */
     public int getSpeedX(){
-        // 16 @ 720x1280 px
         int speedDefault = this.getWidth() / 45;
-        
-        // 1,2 every 4 points @ 720x1280 px
         int speedIncrease = (int) (this.getWidth() / 600f * (game.accomplishmentBox.points / 4));
-        
         int speed = speedDefault + speedIncrease;
-        
         return Math.min(speed, 2*speedDefault);
     }
-    
-    /**
-     * Let's the player fall down dead, makes sure the runcycle stops
-     * and invokes the next method for the dialog and stuff.
-     */
+
     public void gameOver(){
         pause();
         playerDeadFall();
@@ -412,8 +339,6 @@ public class GameView extends SurfaceView{
     
     public void revive() {
         game.numberOfRevive++;
-        
-        // This needs to run another thread, so the dialog can close.
         new Thread(new Runnable() {
             @Override
             public void run() {
@@ -421,12 +346,7 @@ public class GameView extends SurfaceView{
             }
         }).start();
     }
-    
-    /**
-     * Sets the player into startposition
-     * Removes obstacles.
-     * Let's the character blink a few times.
-     */
+
     private void setupRevive(){
         game.gameOverDialog.hide();
         player.setY(this.getHeight()/2 - player.getWidth()/2);
@@ -439,18 +359,13 @@ public class GameView extends SurfaceView{
             Canvas canvas = holder.lockCanvas();
             drawCanvas(canvas, i%2 == 0);
             holder.unlockCanvasAndPost(canvas);
-            // sleep
             try { Thread.sleep(UPDATE_INTERVAL*6); } catch (InterruptedException e) { e.printStackTrace(); }
         }
         resume();
     }
-    
-    /**
-     * A value for the position and size of the onScreen score Text
-     */
+
     public int getScoreTextMetrics(){
         return (int) (this.getHeight() / 21.0f);
-        /*/ game.getResources().getDisplayMetrics().density)*/
     }
     
     public PlayableCharacter getPlayer(){

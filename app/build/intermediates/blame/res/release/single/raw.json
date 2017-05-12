@@ -8,6 +8,10 @@
         "source": "C:\\Users\\jhonts\\Desktop\\flappyDuck\\flutterDuck\\app\\src\\main\\res\\raw\\pass.ogg"
     },
     {
+        "merged": "C:\\Users\\jhonts\\Desktop\\flappyDuck\\flutterDuck\\app\\build\\intermediates\\res\\merged\\release\\raw\\duck.ogg",
+        "source": "C:\\Users\\jhonts\\Desktop\\flappyDuck\\flutterDuck\\app\\src\\main\\res\\raw\\duck.ogg"
+    },
+    {
         "merged": "C:\\Users\\jhonts\\Desktop\\flutterDuck\\flutterDuck\\app\\build\\intermediates\\res\\merged\\release\\raw\\cow.wav",
         "source": "C:\\Users\\jhonts\\Desktop\\flutterDuck\\flutterDuck\\app\\src\\main\\res\\raw\\cow.wav"
     },

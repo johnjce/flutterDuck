@@ -1,12 +1,10 @@
-/**
+package com.jhonts.flutterduck;
+/*
  * The dialog shown when the game is over
- * 
+ *
  * @author John Jairo Castaño Echeverri
  * Copyright (c) <2017> <jjce- ..::jhonts::..>
  */
-
-package com.jhonts.flutterduck;
-
 import android.app.Dialog;
 import android.content.SharedPreferences;
 import android.graphics.Color;
@@ -18,14 +16,8 @@ import android.widget.TextView;
 
 public class GameOverDialog extends Dialog {
     public static final int REVIVE_PRICE = 5;
-    
-    /** Name of the SharedPreference that saves the score */
     public static final String score_save_name = "score_save";
-    
-    /** Key that saves the score */
     public static final String best_score_key = "score";
-    
-    /** The game that invokes this dialog */
     private Game game;
 
     private TextView tvCurrentScoreVal;
@@ -49,12 +41,6 @@ public class GameOverDialog extends Dialog {
                 saveCoins();
                 if(game.numberOfRevive <= 1){
                     game.accomplishmentBox.saveLocal(game);
-                    if(game.getApiClient().isConnected()){
-                        game.accomplishmentBox.submitScore(game, game.getApiClient());
-                        AccomplishmentBox.savesAreOnline(game);
-                    }else{
-                        AccomplishmentBox.savesAreOffline(game);
-                    }
                 }
                 
                 dismiss();
@@ -90,7 +76,6 @@ public class GameOverDialog extends Dialog {
         SharedPreferences saves = game.getSharedPreferences(score_save_name, 0);
         int oldPoints = saves.getInt(best_score_key, 0);
         if(game.accomplishmentBox.points > oldPoints){
-            // Save new highscore
             SharedPreferences.Editor editor = saves.edit();
             editor.putInt(best_score_key, game.accomplishmentBox.points);
             tvBestScoreVal.setTextColor(Color.RED);

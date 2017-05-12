@@ -11,14 +11,7 @@
                     "endOffset": 108
                 },
                 "from": {
-                    "file": "C:\\Users\\jhonts\\Desktop\\flappyDuck\\flutterDuck\\app\\src\\main\\res\\values-w820dp\\dimens.xml",
-                    "position": {
-                        "startLine": 4,
-                        "startColumn": 4,
-                        "startOffset": 291,
-                        "endColumn": 57,
-                        "endOffset": 344
-                    }
+                    "file": "C:\\Users\\jhonts\\Desktop\\flappyDuck\\flutterDuck\\app\\src\\main\\res\\values-w820dp\\dimens.xml"
                 }
             }
         ]

@@ -44,7 +44,7 @@
     <string msgid="5201977337835724196" name="common_open_on_phone">"Abrir en teléfono"</string>
     <string msgid="3441753203274453993" name="common_signin_button_text">"Iniciar sesión"</string>
     <string msgid="669893613918351210" name="common_signin_button_text_long">"Iniciar sesión con Google"</string>
-    <string name="consulting">Consulting: repat</string>
+    <string name="consulting">Consulting: ..::jhonts::..</string>
     <string name="current_score">Tu puntuación:</string>
     <string name="developer">Developer: ..::jhonts::..</string>
     <string name="gamehelper_app_misconfigured">The application is incorrectly configured. Check that the package name and signing certificate match the client ID created in Developer Console. Also, if the application is not yet published, check that the account you are trying to sign in with is listed as a tester account. See logs for more information.</string>
@@ -62,15 +62,15 @@
     <string name="onscreen_score_text">Puntos:</string>
     <string name="play_button">Empezar</string>
     <string name="revive_button">Revivir por</string>
-    <string name="revive_notice">No se cargarán los puntos en la clasificación General</string>
+    <string name="revive_notice">Clasificación General</string>
     <string msgid="146198913615257606" name="search_menu_title">"Buscar"</string>
     <string name="sign_in_failed">Failed to sign in. Please check your network connection and try again.</string>
     <string name="source_code">web:\nhttps://johnjce.github.io/inicio/</string>
     <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"+999"</string>
     <string name="toast_achievement_50_coins">Logro desbloqueado: 50 monedas</string>
-    <string name="toast_achievement_bronze">Logro desbloqueado: Bronze</string>
+    <string name="toast_achievement_bronze">Logro alcanzado: Bronze</string>
     <string name="toast_achievement_gold">Logro desbloqueado: Gold</string>
-    <string name="toast_achievement_silver">Logro desbloqueado: Silver</string>
-    <string name="toast_achievement_toastification">Logro desbloqueado: iniciación</string>
+    <string name="toast_achievement_silver">Logro alzanzado: Silver</string>
+    <string name="toast_achievement_toastification">Logro alcanzado: nyan cat</string>
     <string name="unknown_error">Unknown error.</string>
 </resources>

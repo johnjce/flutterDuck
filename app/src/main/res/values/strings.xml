@@ -4,7 +4,7 @@
     Copyright (c) <2017> <jjce- ..::jhonts::..>
 -->
 <resources>
-    <string name="app_name" translatable="false">Flappy Duck</string>
+    <string name="app_name" translatable="false">Flutter Duck</string>
     <string name="loading" translatable="false">loading...</string>
     <string name="Load_Native_Ad" translatable="false">Load Native Ad</string>
     <string name="current_score">Your score is</string>

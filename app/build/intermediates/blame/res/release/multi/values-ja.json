@@ -535,8 +535,8 @@
                     "startLine": 46,
                     "startColumn": 4,
                     "startOffset": 5291,
-                    "endColumn": 56,
-                    "endOffset": 5343
+                    "endColumn": 65,
+                    "endOffset": 5352
                 },
                 "from": {
                     "file": "C:\\Users\\jhonts\\Desktop\\flappyDuck\\flutterDuck\\app\\src\\main\\res\\values-ja\\strings.xml"
@@ -546,9 +546,9 @@
                 "to": {
                     "startLine": 47,
                     "startColumn": 4,
-                    "startOffset": 5348,
+                    "startOffset": 5357,
                     "endColumn": 51,
-                    "endOffset": 5395
+                    "endOffset": 5404
                 },
                 "from": {
                     "file": "C:\\Users\\jhonts\\Desktop\\flappyDuck\\flutterDuck\\app\\src\\main\\res\\values-ja\\strings.xml"
@@ -558,9 +558,9 @@
                 "to": {
                     "startLine": 48,
                     "startColumn": 4,
-                    "startOffset": 5400,
+                    "startOffset": 5409,
                     "endColumn": 63,
-                    "endOffset": 5459
+                    "endOffset": 5468
                 },
                 "from": {
                     "file": "C:\\Users\\jhonts\\Desktop\\flappyDuck\\flutterDuck\\app\\src\\main\\res\\values-ja\\strings.xml"
@@ -570,9 +570,9 @@
                 "to": {
                     "startLine": 49,
                     "startColumn": 4,
-                    "startOffset": 5464,
+                    "startOffset": 5473,
                     "endColumn": 364,
-                    "endOffset": 5824
+                    "endOffset": 5833
                 },
                 "from": {
                     "file": "C:\\Users\\jhonts\\Desktop\\flappyDuck\\flutterDuck\\app\\src\\main\\res\\values-ja\\strings.xml"
@@ -582,9 +582,9 @@
                 "to": {
                     "startLine": 50,
                     "startColumn": 4,
-                    "startOffset": 5829,
+                    "startOffset": 5838,
                     "endColumn": 75,
-                    "endOffset": 5900
+                    "endOffset": 5909
                 },
                 "from": {
                     "file": "C:\\Users\\jhonts\\Desktop\\flappyDuck\\flutterDuck\\app\\src\\main\\res\\values-ja\\strings.xml"
@@ -594,9 +594,9 @@
                 "to": {
                     "startLine": 51,
                     "startColumn": 4,
-                    "startOffset": 5905,
+                    "startOffset": 5914,
                     "endColumn": 124,
-                    "endOffset": 6025
+                    "endOffset": 6034
                 },
                 "from": {
                     "file": "C:\\Users\\jhonts\\Desktop\\flappyDuck\\flutterDuck\\app\\src\\main\\res\\values-ja\\strings.xml"
@@ -606,9 +606,9 @@
                 "to": {
                     "startLine": 52,
                     "startColumn": 4,
-                    "startOffset": 6030,
+                    "startOffset": 6039,
                     "endColumn": 67,
-                    "endOffset": 6093
+                    "endOffset": 6102
                 },
                 "from": {
                     "file": "C:\\Users\\jhonts\\Desktop\\flappyDuck\\flutterDuck\\app\\src\\main\\res\\values-ja\\strings.xml"
@@ -618,9 +618,9 @@
                 "to": {
                     "startLine": 53,
                     "startColumn": 4,
-                    "startOffset": 6098,
+                    "startOffset": 6107,
                     "endColumn": 61,
-                    "endOffset": 6155
+                    "endOffset": 6164
                 },
                 "from": {
                     "file": "C:\\Users\\jhonts\\Desktop\\flappyDuck\\flutterDuck\\app\\src\\main\\res\\values-ja\\strings.xml"
@@ -630,9 +630,9 @@
                 "to": {
                     "startLine": 54,
                     "startColumn": 4,
-                    "startOffset": 6160,
+                    "startOffset": 6169,
                     "endColumn": 48,
-                    "endOffset": 6204
+                    "endOffset": 6213
                 },
                 "from": {
                     "file": "C:\\Users\\jhonts\\Desktop\\flappyDuck\\flutterDuck\\app\\src\\main\\res\\values-ja\\strings.xml"
@@ -642,9 +642,9 @@
                 "to": {
                     "startLine": 55,
                     "startColumn": 4,
-                    "startOffset": 6209,
+                    "startOffset": 6218,
                     "endColumn": 64,
-                    "endOffset": 6269
+                    "endOffset": 6278
                 },
                 "from": {
                     "file": "C:\\Users\\jhonts\\Desktop\\flappyDuck\\flutterDuck\\app\\src\\main\\res\\values-ja\\strings.xml"
@@ -654,9 +654,9 @@
                 "to": {
                     "startLine": 56,
                     "startColumn": 4,
-                    "startOffset": 6274,
+                    "startOffset": 6283,
                     "endColumn": 45,
-                    "endOffset": 6315
+                    "endOffset": 6324
                 },
                 "from": {
                     "file": "C:\\Users\\jhonts\\Desktop\\flappyDuck\\flutterDuck\\app\\src\\main\\res\\values-ja\\strings.xml"
@@ -666,9 +666,9 @@
                 "to": {
                     "startLine": 57,
                     "startColumn": 4,
-                    "startOffset": 6320,
+                    "startOffset": 6329,
                     "endColumn": 55,
-                    "endOffset": 6371
+                    "endOffset": 6380
                 },
                 "from": {
                     "file": "C:\\Users\\jhonts\\Desktop\\flappyDuck\\flutterDuck\\app\\src\\main\\res\\values-ja\\strings.xml"
@@ -678,9 +678,9 @@
                 "to": {
                     "startLine": 58,
                     "startColumn": 4,
-                    "startOffset": 6376,
+                    "startOffset": 6385,
                     "endColumn": 116,
-                    "endOffset": 6488
+                    "endOffset": 6497
                 },
                 "from": {
                     "file": "C:\\Users\\jhonts\\Desktop\\flappyDuck\\flutterDuck\\app\\src\\main\\res\\values-ja\\strings.xml"
@@ -690,9 +690,9 @@
                 "to": {
                     "startLine": 59,
                     "startColumn": 4,
-                    "startOffset": 6493,
+                    "startOffset": 6502,
                     "endColumn": 72,
-                    "endOffset": 6561
+                    "endOffset": 6570
                 },
                 "from": {
                     "file": "C:\\Users\\jhonts\\Desktop\\flappyDuck\\flutterDuck\\app\\src\\main\\res\\values-ja\\strings.xml"
@@ -702,9 +702,9 @@
                 "to": {
                     "startLine": 60,
                     "startColumn": 4,
-                    "startOffset": 6566,
+                    "startOffset": 6575,
                     "endColumn": 51,
-                    "endOffset": 6613
+                    "endOffset": 6622
                 },
                 "from": {
                     "file": "C:\\Users\\jhonts\\Desktop\\flappyDuck\\flutterDuck\\app\\src\\main\\res\\values-ja\\strings.xml"
@@ -714,9 +714,9 @@
                 "to": {
                     "startLine": 61,
                     "startColumn": 4,
-                    "startOffset": 6618,
+                    "startOffset": 6627,
                     "endColumn": 52,
-                    "endOffset": 6666
+                    "endOffset": 6675
                 },
                 "from": {
                     "file": "C:\\Users\\jhonts\\Desktop\\flappyDuck\\flutterDuck\\app\\src\\main\\res\\values-ja\\strings.xml"
@@ -726,9 +726,9 @@
                 "to": {
                     "startLine": 62,
                     "startColumn": 4,
-                    "startOffset": 6671,
+                    "startOffset": 6680,
                     "endColumn": 53,
-                    "endOffset": 6720
+                    "endOffset": 6729
                 },
                 "from": {
                     "file": "C:\\Users\\jhonts\\Desktop\\flappyDuck\\flutterDuck\\app\\src\\main\\res\\values-ja\\strings.xml"
@@ -738,9 +738,9 @@
                 "to": {
                     "startLine": 63,
                     "startColumn": 4,
-                    "startOffset": 6725,
+                    "startOffset": 6734,
                     "endColumn": 52,
-                    "endOffset": 6773
+                    "endOffset": 6782
                 },
                 "from": {
                     "file": "C:\\Users\\jhonts\\Desktop\\flappyDuck\\flutterDuck\\app\\src\\main\\res\\values-ja\\strings.xml"
@@ -750,9 +750,9 @@
                 "to": {
                     "startLine": 64,
                     "startColumn": 4,
-                    "startOffset": 6778,
+                    "startOffset": 6787,
                     "endColumn": 86,
-                    "endOffset": 6860
+                    "endOffset": 6869
                 },
                 "from": {
                     "file": "C:\\Users\\jhonts\\Desktop\\flappyDuck\\flutterDuck\\app\\src\\main\\res\\values-ja\\strings.xml"
@@ -762,9 +762,9 @@
                 "to": {
                     "startLine": 65,
                     "startColumn": 4,
-                    "startOffset": 6865,
+                    "startOffset": 6874,
                     "endColumn": 77,
-                    "endOffset": 6938
+                    "endOffset": 6947
                 },
                 "from": {
                     "file": "C:\\Users\\jhonts\\.android\\build-cache\\008957a58e8ae6afd169392f2000bd28b2e0fe24\\output\\res\\values-ja\\values-ja.xml"
@@ -774,9 +774,9 @@
                 "to": {
                     "startLine": 66,
                     "startColumn": 4,
-                    "startOffset": 6943,
+                    "startOffset": 6952,
                     "endColumn": 113,
-                    "endOffset": 7052
+                    "endOffset": 7061
                 },
                 "from": {
                     "file": "C:\\Users\\jhonts\\Desktop\\flappyDuck\\flutterDuck\\app\\src\\main\\res\\values-ja\\strings.xml"
@@ -786,9 +786,9 @@
                 "to": {
                     "startLine": 67,
                     "startColumn": 4,
-                    "startOffset": 7057,
+                    "startOffset": 7066,
                     "endColumn": 79,
-                    "endOffset": 7132
+                    "endOffset": 7141
                 },
                 "from": {
                     "file": "C:\\Users\\jhonts\\Desktop\\flappyDuck\\flutterDuck\\app\\src\\main\\res\\values-ja\\strings.xml"
@@ -798,9 +798,9 @@
                 "to": {
                     "startLine": 68,
                     "startColumn": 4,
-                    "startOffset": 7137,
+                    "startOffset": 7146,
                     "endColumn": 100,
-                    "endOffset": 7233
+                    "endOffset": 7242
                 },
                 "from": {
                     "file": "C:\\Users\\jhonts\\.android\\build-cache\\008957a58e8ae6afd169392f2000bd28b2e0fe24\\output\\res\\values-ja\\values-ja.xml"
@@ -810,28 +810,21 @@
                 "to": {
                     "startLine": 69,
                     "startColumn": 4,
-                    "startOffset": 7238,
+                    "startOffset": 7247,
                     "endColumn": 85,
-                    "endOffset": 7319
+                    "endOffset": 7328
                 },
                 "from": {
-                    "file": "C:\\Users\\jhonts\\Desktop\\flappyDuck\\flutterDuck\\app\\src\\main\\res\\values-ja\\strings.xml",
-                    "position": {
-                        "startLine": 25,
-                        "startColumn": 4,
-                        "startOffset": 1300,
-                        "endColumn": 85,
-                        "endOffset": 1381
-                    }
+                    "file": "C:\\Users\\jhonts\\Desktop\\flappyDuck\\flutterDuck\\app\\src\\main\\res\\values-ja\\strings.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 70,
                     "startColumn": 4,
-                    "startOffset": 7324,
+                    "startOffset": 7333,
                     "endColumn": 81,
-                    "endOffset": 7401
+                    "endOffset": 7410
                 },
                 "from": {
                     "file": "C:\\Users\\jhonts\\Desktop\\flappyDuck\\flutterDuck\\app\\src\\main\\res\\values-ja\\strings.xml"
@@ -841,9 +834,9 @@
                 "to": {
                     "startLine": 71,
                     "startColumn": 4,
-                    "startOffset": 7406,
+                    "startOffset": 7415,
                     "endColumn": 77,
-                    "endOffset": 7479
+                    "endOffset": 7488
                 },
                 "from": {
                     "file": "C:\\Users\\jhonts\\Desktop\\flappyDuck\\flutterDuck\\app\\src\\main\\res\\values-ja\\strings.xml"
@@ -853,9 +846,9 @@
                 "to": {
                     "startLine": 72,
                     "startColumn": 4,
-                    "startOffset": 7484,
+                    "startOffset": 7493,
                     "endColumn": 81,
-                    "endOffset": 7561
+                    "endOffset": 7570
                 },
                 "from": {
                     "file": "C:\\Users\\jhonts\\Desktop\\flappyDuck\\flutterDuck\\app\\src\\main\\res\\values-ja\\strings.xml"
@@ -865,9 +858,9 @@
                 "to": {
                     "startLine": 73,
                     "startColumn": 4,
-                    "startOffset": 7566,
+                    "startOffset": 7575,
                     "endColumn": 97,
-                    "endOffset": 7659
+                    "endOffset": 7668
                 },
                 "from": {
                     "file": "C:\\Users\\jhonts\\Desktop\\flappyDuck\\flutterDuck\\app\\src\\main\\res\\values-ja\\strings.xml"
@@ -877,9 +870,9 @@
                 "to": {
                     "startLine": 74,
                     "startColumn": 4,
-                    "startOffset": 7664,
+                    "startOffset": 7673,
                     "endColumn": 56,
-                    "endOffset": 7716
+                    "endOffset": 7725
                 },
                 "from": {
                     "file": "C:\\Users\\jhonts\\Desktop\\flappyDuck\\flutterDuck\\app\\src\\main\\res\\values-ja\\strings.xml"

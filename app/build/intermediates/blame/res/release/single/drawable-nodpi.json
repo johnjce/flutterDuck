@@ -36,6 +36,10 @@
         "source": "C:\\Users\\jhonts\\Desktop\\flutterDuck\\flutterDuck\\app\\src\\main\\res\\drawable-nodpi\\bg.png"
     },
     {
+        "merged": "C:\\Users\\jhonts\\Desktop\\flappyDuck\\flutterDuck\\app\\build\\intermediates\\res\\merged\\release\\drawable-nodpi\\glog_full.png",
+        "source": "C:\\Users\\jhonts\\Desktop\\flappyDuck\\flutterDuck\\app\\src\\main\\res\\drawable-nodpi\\glog_full.png"
+    },
+    {
         "merged": "C:\\Users\\jhonts\\Desktop\\flappyDuck\\flutterDuck\\app\\build\\intermediates\\res\\merged\\release\\drawable-nodpi\\log_full.png",
         "source": "C:\\Users\\jhonts\\Desktop\\flappyDuck\\flutterDuck\\app\\src\\main\\res\\drawable-nodpi\\log_full.png"
     },
@@ -54,6 +58,10 @@
     {
         "merged": "C:\\Users\\jhonts\\Desktop\\flutterDuck\\flutterDuck\\app\\build\\intermediates\\res\\merged\\release\\drawable-nodpi\\log_full.png",
         "source": "C:\\Users\\jhonts\\Desktop\\flutterDuck\\flutterDuck\\app\\src\\main\\res\\drawable-nodpi\\log_full.png"
+    },
+    {
+        "merged": "C:\\Users\\jhonts\\Desktop\\flappyDuck\\flutterDuck\\app\\build\\intermediates\\res\\merged\\release\\drawable-nodpi\\duck.png",
+        "source": "C:\\Users\\jhonts\\Desktop\\flappyDuck\\flutterDuck\\app\\src\\main\\res\\drawable-nodpi\\duck.png"
     },
     {
         "merged": "C:\\Users\\jhonts\\Desktop\\flappyDuck\\flutterDuck\\app\\build\\intermediates\\res\\merged\\release\\drawable-nodpi\\toast.png",
@@ -76,6 +84,10 @@
         "source": "C:\\Users\\jhonts\\Desktop\\flutterDuck\\flutterDuck\\app\\src\\main\\res\\drawable-nodpi\\splash.png"
     },
     {
+        "merged": "C:\\Users\\jhonts\\Desktop\\flappyDuck\\flutterDuck\\app\\build\\intermediates\\res\\merged\\release\\drawable-nodpi\\sspider_full.png",
+        "source": "C:\\Users\\jhonts\\Desktop\\flappyDuck\\flutterDuck\\app\\src\\main\\res\\drawable-nodpi\\sspider_full.png"
+    },
+    {
         "merged": "C:\\Users\\jhonts\\Desktop\\flappyDuck\\flutterDuck\\app\\build\\intermediates\\res\\merged\\release\\drawable-nodpi\\gold.png",
         "source": "C:\\Users\\jhonts\\Desktop\\flappyDuck\\flutterDuck\\app\\src\\main\\res\\drawable-nodpi\\gold.png"
     },
@@ -92,8 +104,20 @@
         "source": "C:\\Users\\jhonts\\Desktop\\flappyDuck\\flutterDuck\\app\\src\\main\\res\\drawable-nodpi\\bg.png"
     },
     {
+        "merged": "C:\\Users\\jhonts\\Desktop\\flappyDuck\\flutterDuck\\app\\build\\intermediates\\res\\merged\\release\\drawable-nodpi\\sbg.png",
+        "source": "C:\\Users\\jhonts\\Desktop\\flappyDuck\\flutterDuck\\app\\src\\main\\res\\drawable-nodpi\\sbg.png"
+    },
+    {
         "merged": "C:\\Users\\jhonts\\Desktop\\flappyDuck\\flutterDuck\\app\\build\\intermediates\\res\\merged\\release\\drawable-nodpi\\signinout.png",
         "source": "C:\\Users\\jhonts\\Desktop\\flappyDuck\\flutterDuck\\app\\src\\main\\res\\drawable-nodpi\\signinout.png"
+    },
+    {
+        "merged": "C:\\Users\\jhonts\\Desktop\\flappyDuck\\flutterDuck\\app\\build\\intermediates\\res\\merged\\release\\drawable-nodpi\\blog_full.png",
+        "source": "C:\\Users\\jhonts\\Desktop\\flappyDuck\\flutterDuck\\app\\src\\main\\res\\drawable-nodpi\\blog_full.png"
+    },
+    {
+        "merged": "C:\\Users\\jhonts\\Desktop\\flappyDuck\\flutterDuck\\app\\build\\intermediates\\res\\merged\\release\\drawable-nodpi\\gspider_full.png",
+        "source": "C:\\Users\\jhonts\\Desktop\\flappyDuck\\flutterDuck\\app\\src\\main\\res\\drawable-nodpi\\gspider_full.png"
     },
     {
         "merged": "C:\\Users\\jhonts\\Desktop\\flutterDuck\\flutterDuck\\app\\build\\intermediates\\res\\merged\\release\\drawable-nodpi\\bronce.png",
@@ -102,6 +126,10 @@
     {
         "merged": "C:\\Users\\jhonts\\Desktop\\flutterDuck\\flutterDuck\\app\\build\\intermediates\\res\\merged\\release\\drawable-nodpi\\nyan_cat.png",
         "source": "C:\\Users\\jhonts\\Desktop\\flutterDuck\\flutterDuck\\app\\src\\main\\res\\drawable-nodpi\\nyan_cat.png"
+    },
+    {
+        "merged": "C:\\Users\\jhonts\\Desktop\\flappyDuck\\flutterDuck\\app\\build\\intermediates\\res\\merged\\release\\drawable-nodpi\\gbg.png",
+        "source": "C:\\Users\\jhonts\\Desktop\\flappyDuck\\flutterDuck\\app\\src\\main\\res\\drawable-nodpi\\gbg.png"
     },
     {
         "merged": "C:\\Users\\jhonts\\Desktop\\flutterDuck\\flutterDuck\\app\\build\\intermediates\\res\\merged\\release\\drawable-nodpi\\socket.png",
@@ -114,6 +142,14 @@
     {
         "merged": "C:\\Users\\jhonts\\Desktop\\flutterDuck\\flutterDuck\\app\\build\\intermediates\\res\\merged\\release\\drawable-nodpi\\toast.png",
         "source": "C:\\Users\\jhonts\\Desktop\\flutterDuck\\flutterDuck\\app\\src\\main\\res\\drawable-nodpi\\toast.png"
+    },
+    {
+        "merged": "C:\\Users\\jhonts\\Desktop\\flappyDuck\\flutterDuck\\app\\build\\intermediates\\res\\merged\\release\\drawable-nodpi\\bfb.png",
+        "source": "C:\\Users\\jhonts\\Desktop\\flappyDuck\\flutterDuck\\app\\src\\main\\res\\drawable-nodpi\\bfb.png"
+    },
+    {
+        "merged": "C:\\Users\\jhonts\\Desktop\\flappyDuck\\flutterDuck\\app\\build\\intermediates\\res\\merged\\release\\drawable-nodpi\\gfb.png",
+        "source": "C:\\Users\\jhonts\\Desktop\\flappyDuck\\flutterDuck\\app\\src\\main\\res\\drawable-nodpi\\gfb.png"
     },
     {
         "merged": "C:\\Users\\jhonts\\Desktop\\flappyDuck\\flutterDuck\\app\\build\\intermediates\\res\\merged\\release\\drawable-nodpi\\achievement_button.png",
@@ -132,6 +168,10 @@
         "source": "C:\\Users\\jhonts\\Desktop\\flappyDuck\\flutterDuck\\app\\src\\main\\res\\drawable-nodpi\\coin.png"
     },
     {
+        "merged": "C:\\Users\\jhonts\\Desktop\\flappyDuck\\flutterDuck\\app\\build\\intermediates\\res\\merged\\release\\drawable-nodpi\\gfg.png",
+        "source": "C:\\Users\\jhonts\\Desktop\\flappyDuck\\flutterDuck\\app\\src\\main\\res\\drawable-nodpi\\gfg.png"
+    },
+    {
         "merged": "C:\\Users\\jhonts\\Desktop\\flutterDuck\\flutterDuck\\app\\build\\intermediates\\res\\merged\\release\\drawable-nodpi\\achievement_button.png",
         "source": "C:\\Users\\jhonts\\Desktop\\flutterDuck\\flutterDuck\\app\\src\\main\\res\\drawable-nodpi\\achievement_button.png"
     },
@@ -146,6 +186,10 @@
     {
         "merged": "C:\\Users\\jhonts\\Desktop\\flutterDuck\\flutterDuck\\app\\build\\intermediates\\res\\merged\\release\\drawable-nodpi\\play_button.png",
         "source": "C:\\Users\\jhonts\\Desktop\\flutterDuck\\flutterDuck\\app\\src\\main\\res\\drawable-nodpi\\play_button.png"
+    },
+    {
+        "merged": "C:\\Users\\jhonts\\Desktop\\flappyDuck\\flutterDuck\\app\\build\\intermediates\\res\\merged\\release\\drawable-nodpi\\sfg.png",
+        "source": "C:\\Users\\jhonts\\Desktop\\flappyDuck\\flutterDuck\\app\\src\\main\\res\\drawable-nodpi\\sfg.png"
     },
     {
         "merged": "C:\\Users\\jhonts\\Desktop\\flutterDuck\\flutterDuck\\app\\build\\intermediates\\res\\merged\\release\\drawable-nodpi\\signinout.png",
@@ -172,6 +216,10 @@
         "source": "C:\\Users\\jhonts\\Desktop\\flappyDuck\\flutterDuck\\app\\src\\main\\res\\drawable-nodpi\\socket.png"
     },
     {
+        "merged": "C:\\Users\\jhonts\\Desktop\\flappyDuck\\flutterDuck\\app\\build\\intermediates\\res\\merged\\release\\drawable-nodpi\\bspider_full.png",
+        "source": "C:\\Users\\jhonts\\Desktop\\flappyDuck\\flutterDuck\\app\\src\\main\\res\\drawable-nodpi\\bspider_full.png"
+    },
+    {
         "merged": "C:\\Users\\jhonts\\Desktop\\flappyDuck\\flutterDuck\\app\\build\\intermediates\\res\\merged\\release\\drawable-nodpi\\spider_full.png",
         "source": "C:\\Users\\jhonts\\Desktop\\flappyDuck\\flutterDuck\\app\\src\\main\\res\\drawable-nodpi\\spider_full.png"
     },
@@ -192,11 +240,19 @@
         "source": "C:\\Users\\jhonts\\Desktop\\flutterDuck\\flutterDuck\\app\\src\\main\\res\\drawable-nodpi\\accessory_sir.png"
     },
     {
+        "merged": "C:\\Users\\jhonts\\Desktop\\flappyDuck\\flutterDuck\\app\\build\\intermediates\\res\\merged\\release\\drawable-nodpi\\slog_full.png",
+        "source": "C:\\Users\\jhonts\\Desktop\\flappyDuck\\flutterDuck\\app\\src\\main\\res\\drawable-nodpi\\slog_full.png"
+    },
+    {
         "merged": "C:\\Users\\jhonts\\Desktop\\flutterDuck\\flutterDuck\\app\\build\\intermediates\\res\\merged\\release\\drawable-nodpi\\speaker.png",
         "source": "C:\\Users\\jhonts\\Desktop\\flutterDuck\\flutterDuck\\app\\src\\main\\res\\drawable-nodpi\\speaker.png"
     },
     {
         "merged": "C:\\Users\\jhonts\\Desktop\\flutterDuck\\flutterDuck\\app\\build\\intermediates\\res\\merged\\release\\drawable-nodpi\\coin.png",
         "source": "C:\\Users\\jhonts\\Desktop\\flutterDuck\\flutterDuck\\app\\src\\main\\res\\drawable-nodpi\\coin.png"
+    },
+    {
+        "merged": "C:\\Users\\jhonts\\Desktop\\flappyDuck\\flutterDuck\\app\\build\\intermediates\\res\\merged\\release\\drawable-nodpi\\bbg.png",
+        "source": "C:\\Users\\jhonts\\Desktop\\flappyDuck\\flutterDuck\\app\\src\\main\\res\\drawable-nodpi\\bbg.png"
     }
 ]

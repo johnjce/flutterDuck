@@ -1,11 +1,11 @@
 [
     {
-        "merged": "C:\\Users\\jhonts\\Desktop\\flutterDuck\\flutterDuck\\app\\build\\intermediates\\res\\merged\\release\\drawable-tvdpi-v4\\common_google_signin_btn_text_light_disabled.9.png",
-        "source": "C:\\Users\\jhonts\\.android\\build-cache\\a49524380c4a7d10174014a070c0eac48d3d38ae\\output\\res\\drawable-tvdpi-v4\\common_google_signin_btn_text_light_disabled.9.png"
-    },
-    {
         "merged": "C:\\Users\\jhonts\\Desktop\\flutterDuck\\flutterDuck\\app\\build\\intermediates\\res\\merged\\release\\drawable-tvdpi-v4\\common_google_signin_btn_icon_dark_disabled.9.png",
         "source": "C:\\Users\\jhonts\\.android\\build-cache\\a49524380c4a7d10174014a070c0eac48d3d38ae\\output\\res\\drawable-tvdpi-v4\\common_google_signin_btn_icon_dark_disabled.9.png"
+    },
+    {
+        "merged": "C:\\Users\\jhonts\\Desktop\\flutterDuck\\flutterDuck\\app\\build\\intermediates\\res\\merged\\release\\drawable-tvdpi-v4\\common_google_signin_btn_text_light_disabled.9.png",
+        "source": "C:\\Users\\jhonts\\.android\\build-cache\\a49524380c4a7d10174014a070c0eac48d3d38ae\\output\\res\\drawable-tvdpi-v4\\common_google_signin_btn_text_light_disabled.9.png"
     },
     {
         "merged": "C:\\Users\\jhonts\\Desktop\\flappyDuck\\flutterDuck\\app\\build\\intermediates\\res\\merged\\release\\drawable-tvdpi-v4\\common_google_signin_btn_icon_light_pressed.9.png",

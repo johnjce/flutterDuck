@@ -4,12 +4,12 @@
         "source": "C:\\Users\\jhonts\\.android\\build-cache\\a49524380c4a7d10174014a070c0eac48d3d38ae\\output\\res\\drawable-xxhdpi-v4\\common_google_signin_btn_text_light_pressed.9.png"
     },
     {
-        "merged": "C:\\Users\\jhonts\\Desktop\\flutterDuck\\flutterDuck\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\abc_spinner_mtrl_am_alpha.9.png",
-        "source": "C:\\Users\\jhonts\\.android\\build-cache\\008957a58e8ae6afd169392f2000bd28b2e0fe24\\output\\res\\drawable-xxhdpi-v4\\abc_spinner_mtrl_am_alpha.9.png"
-    },
-    {
         "merged": "C:\\Users\\jhonts\\Desktop\\flutterDuck\\flutterDuck\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png",
         "source": "C:\\Users\\jhonts\\.android\\build-cache\\008957a58e8ae6afd169392f2000bd28b2e0fe24\\output\\res\\drawable-xxhdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "C:\\Users\\jhonts\\Desktop\\flutterDuck\\flutterDuck\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\abc_spinner_mtrl_am_alpha.9.png",
+        "source": "C:\\Users\\jhonts\\.android\\build-cache\\008957a58e8ae6afd169392f2000bd28b2e0fe24\\output\\res\\drawable-xxhdpi-v4\\abc_spinner_mtrl_am_alpha.9.png"
     },
     {
         "merged": "C:\\Users\\jhonts\\Desktop\\flappyDuck\\flutterDuck\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\abc_cab_background_top_mtrl_alpha.9.png",
@@ -52,12 +52,12 @@
         "source": "C:\\Users\\jhonts\\.android\\build-cache\\008957a58e8ae6afd169392f2000bd28b2e0fe24\\output\\res\\drawable-xxhdpi-v4\\abc_btn_radio_to_on_mtrl_000.png"
     },
     {
-        "merged": "C:\\Users\\jhonts\\Desktop\\flappyDuck\\flutterDuck\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\abc_ic_star_black_36dp.png",
-        "source": "C:\\Users\\jhonts\\.android\\build-cache\\008957a58e8ae6afd169392f2000bd28b2e0fe24\\output\\res\\drawable-xxhdpi-v4\\abc_ic_star_black_36dp.png"
-    },
-    {
         "merged": "C:\\Users\\jhonts\\Desktop\\flappyDuck\\flutterDuck\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\abc_list_pressed_holo_light.9.png",
         "source": "C:\\Users\\jhonts\\.android\\build-cache\\008957a58e8ae6afd169392f2000bd28b2e0fe24\\output\\res\\drawable-xxhdpi-v4\\abc_list_pressed_holo_light.9.png"
+    },
+    {
+        "merged": "C:\\Users\\jhonts\\Desktop\\flappyDuck\\flutterDuck\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\abc_ic_star_black_36dp.png",
+        "source": "C:\\Users\\jhonts\\.android\\build-cache\\008957a58e8ae6afd169392f2000bd28b2e0fe24\\output\\res\\drawable-xxhdpi-v4\\abc_ic_star_black_36dp.png"
     },
     {
         "merged": "C:\\Users\\jhonts\\Desktop\\flappyDuck\\flutterDuck\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\common_google_signin_btn_icon_dark_pressed.9.png",

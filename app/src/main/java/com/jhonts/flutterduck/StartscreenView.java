@@ -103,8 +103,8 @@ public class StartscreenView extends View{
         canvas.drawBitmap(speaker, srcSpeaker, dstSpeaker, null);
         canvas.drawBitmap(info, srcInfo, dstInfo, null);
         canvas.drawBitmap(socket, srcSocket, dstSocket, null);
-        canvas.drawBitmap(achievements, srcAchievements, dstAchievements, null);
-        canvas.drawBitmap(leaderBoard, srcLeaderBoard, dstLeaderBoard, null);
+        //canvas.drawBitmap(achievements, srcAchievements, dstAchievements, null);
+        //canvas.drawBitmap(leaderBoard, srcLeaderBoard, dstLeaderBoard, null);
     }
     
     @Override
@@ -155,12 +155,12 @@ public class StartscreenView extends View{
                     && (event.getX() < REGION_ACHIEVEMENT[2] * getWidth())
                     && (event.getY() > REGION_ACHIEVEMENT[1] * getHeight())
                     && (event.getY() < REGION_ACHIEVEMENT[3] * getHeight()) ) {
-                mainActivity.startActivity(new Intent("com.jhonts.flutterduck.Achievement"));//logros
+                //mainActivity.startActivity(new Intent("com.jhonts.flutterduck.Achievement"));//logros
             } else if(    (event.getX() > REGION_LEADERBOARD[0] * getWidth())
                     && (event.getX() < REGION_LEADERBOARD[2] * getWidth())
                     && (event.getY() > REGION_LEADERBOARD[1] * getHeight())
                     && (event.getY() < REGION_LEADERBOARD[3] * getHeight()) ) {
-                mainActivity.startActivity(new Intent("com.jhonts.flutterduck.LeaderBoard"));//puntuaciones
+                //mainActivity.startActivity(new Intent("com.jhonts.flutterduck.LeaderBoard"));//puntuaciones
             } else if(    (event.getX() > REGION_SPEAKER[0] * getWidth())
                     && (event.getX() < REGION_SPEAKER[2] * getWidth())
                     && (event.getY() > REGION_SPEAKER[1] * getHeight())

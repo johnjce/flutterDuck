@@ -5,8 +5,8 @@
 -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.jhonts.flutterduck"
-    android:versionCode="29"
-    android:versionName="3.2" >
+    android:versionCode="30"
+    android:versionName="3.2.1" >
 
     <uses-sdk
         android:minSdkVersion="15"
@@ -58,6 +58,26 @@
             android:screenOrientation="portrait" >
             <intent-filter>
                 <action android:name="com.jhonts.flutterduck.About" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.jhonts.flutterduck.Achievement"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="com.jhonts.flutterduck.Achievement" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.jhonts.flutterduck.LeaderBoard"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="com.jhonts.flutterduck.LeaderBoard" />
 
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>

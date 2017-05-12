@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\jhonts\Desktop\flappyDuck\flutterDuck\app\src\main\AndroidManifest.xml:7:1-68:12
+ADDED from C:\Users\jhonts\Desktop\flappyDuck\flutterDuck\app\src\main\AndroidManifest.xml:7:1-86:12
 	package
 		ADDED from C:\Users\jhonts\Desktop\flappyDuck\flutterDuck\app\src\main\AndroidManifest.xml:8:5-37
 		INJECTED from C:\Users\jhonts\Desktop\flappyDuck\flutterDuck\app\src\main\AndroidManifest.xml
@@ -24,7 +24,7 @@ MERGED from [com.google.android.gms:play-services-ads-lite:9.4.0] C:\Users\jhont
 	android:name
 		ADDED from C:\Users\jhonts\Desktop\flappyDuck\flutterDuck\app\src\main\AndroidManifest.xml:14:26-80
 application
-ADDED from C:\Users\jhonts\Desktop\flappyDuck\flutterDuck\app\src\main\AndroidManifest.xml:17:5-66:19
+ADDED from C:\Users\jhonts\Desktop\flappyDuck\flutterDuck\app\src\main\AndroidManifest.xml:17:5-84:19
 MERGED from [flutterDuck:BaseGameUtils:unspecified] C:\Users\jhonts\Desktop\flappyDuck\flutterDuck\BaseGameUtils\build\intermediates\bundles\default\AndroidManifest.xml:24:5-28:19
 MERGED from [com.android.support:appcompat-v7:24.2.1] C:\Users\jhonts\.android\build-cache\008957a58e8ae6afd169392f2000bd28b2e0fe24\output\AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:animated-vector-drawable:24.2.1] C:\Users\jhonts\.android\build-cache\1a80cb93fb7ff80b1a91082477271c90add5e77b\output\AndroidManifest.xml:22:5-20
@@ -112,18 +112,46 @@ action#com.jhonts.flutterduck.About
 ADDED from C:\Users\jhonts\Desktop\flappyDuck\flutterDuck\app\src\main\AndroidManifest.xml:53:17-71
 	android:name
 		ADDED from C:\Users\jhonts\Desktop\flappyDuck\flutterDuck\app\src\main\AndroidManifest.xml:53:25-68
+activity#com.jhonts.flutterduck.Achievement
+ADDED from C:\Users\jhonts\Desktop\flappyDuck\flutterDuck\app\src\main\AndroidManifest.xml:57:9-65:20
+	android:screenOrientation
+		ADDED from C:\Users\jhonts\Desktop\flappyDuck\flutterDuck\app\src\main\AndroidManifest.xml:60:13-49
+	android:label
+		ADDED from C:\Users\jhonts\Desktop\flappyDuck\flutterDuck\app\src\main\AndroidManifest.xml:59:13-45
+	android:name
+		ADDED from C:\Users\jhonts\Desktop\flappyDuck\flutterDuck\app\src\main\AndroidManifest.xml:58:13-40
+intent-filter#android.intent.category.DEFAULT+com.jhonts.flutterduck.Achievement
+ADDED from C:\Users\jhonts\Desktop\flappyDuck\flutterDuck\app\src\main\AndroidManifest.xml:61:13-64:29
+action#com.jhonts.flutterduck.Achievement
+ADDED from C:\Users\jhonts\Desktop\flappyDuck\flutterDuck\app\src\main\AndroidManifest.xml:62:17-77
+	android:name
+		ADDED from C:\Users\jhonts\Desktop\flappyDuck\flutterDuck\app\src\main\AndroidManifest.xml:62:25-74
+activity#com.jhonts.flutterduck.LeaderBoard
+ADDED from C:\Users\jhonts\Desktop\flappyDuck\flutterDuck\app\src\main\AndroidManifest.xml:66:9-74:20
+	android:screenOrientation
+		ADDED from C:\Users\jhonts\Desktop\flappyDuck\flutterDuck\app\src\main\AndroidManifest.xml:69:13-49
+	android:label
+		ADDED from C:\Users\jhonts\Desktop\flappyDuck\flutterDuck\app\src\main\AndroidManifest.xml:68:13-45
+	android:name
+		ADDED from C:\Users\jhonts\Desktop\flappyDuck\flutterDuck\app\src\main\AndroidManifest.xml:67:13-40
+intent-filter#android.intent.category.DEFAULT+com.jhonts.flutterduck.LeaderBoard
+ADDED from C:\Users\jhonts\Desktop\flappyDuck\flutterDuck\app\src\main\AndroidManifest.xml:70:13-73:29
+action#com.jhonts.flutterduck.LeaderBoard
+ADDED from C:\Users\jhonts\Desktop\flappyDuck\flutterDuck\app\src\main\AndroidManifest.xml:71:17-77
+	android:name
+		ADDED from C:\Users\jhonts\Desktop\flappyDuck\flutterDuck\app\src\main\AndroidManifest.xml:71:25-74
 activity#com.apptracker.android.module.AppModuleActivity
-ADDED from C:\Users\jhonts\Desktop\flappyDuck\flutterDuck\app\src\main\AndroidManifest.xml:59:9-62:20
+ADDED from C:\Users\jhonts\Desktop\flappyDuck\flutterDuck\app\src\main\AndroidManifest.xml:77:9-80:20
 	android:hardwareAccelerated
-		ADDED from C:\Users\jhonts\Desktop\flappyDuck\flutterDuck\app\src\main\AndroidManifest.xml:61:13-48
+		ADDED from C:\Users\jhonts\Desktop\flappyDuck\flutterDuck\app\src\main\AndroidManifest.xml:79:13-48
 	android:configChanges
-		ADDED from C:\Users\jhonts\Desktop\flappyDuck\flutterDuck\app\src\main\AndroidManifest.xml:59:19-89
+		ADDED from C:\Users\jhonts\Desktop\flappyDuck\flutterDuck\app\src\main\AndroidManifest.xml:77:19-89
 	android:name
-		ADDED from C:\Users\jhonts\Desktop\flappyDuck\flutterDuck\app\src\main\AndroidManifest.xml:60:13-75
+		ADDED from C:\Users\jhonts\Desktop\flappyDuck\flutterDuck\app\src\main\AndroidManifest.xml:78:13-75
 service#com.apptracker.android.track.AppTrackerService
-ADDED from C:\Users\jhonts\Desktop\flappyDuck\flutterDuck\app\src\main\AndroidManifest.xml:63:9-82
+ADDED from C:\Users\jhonts\Desktop\flappyDuck\flutterDuck\app\src\main\AndroidManifest.xml:81:9-82
 	android:name
-		ADDED from C:\Users\jhonts\Desktop\flappyDuck\flutterDuck\app\src\main\AndroidManifest.xml:63:18-79
+		ADDED from C:\Users\jhonts\Desktop\flappyDuck\flutterDuck\app\src\main\AndroidManifest.xml:81:18-79
 uses-sdk
 INJECTED from C:\Users\jhonts\Desktop\flappyDuck\flutterDuck\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [flutterDuck:BaseGameUtils:unspecified] C:\Users\jhonts\Desktop\flappyDuck\flutterDuck\BaseGameUtils\build\intermediates\bundles\default\AndroidManifest.xml:22:5-44

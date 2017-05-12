@@ -15,14 +15,10 @@ import android.os.Message;
 import android.widget.Toast;
 
 import com.apptracker.android.track.AppTracker;
-import com.google.android.gms.common.api.GoogleApiClient;
 import com.google.android.gms.games.Games;
 import com.google.example.games.basegameutils.BaseGameActivity;
 
-
-
 public class Game extends BaseGameActivity{
-
     public static final String coin_save = "coin_save";
     public static final String coin_key = "coin_key";
     public static SoundPool sound =new SoundPool(5, AudioManager.STREAM_MUSIC, 0);
@@ -54,18 +50,13 @@ public class Game extends BaseGameActivity{
         }
     }
 
-    /**
-     * Initializes the player with the nyan cat song
-     * and sets the position to 0.
-     */
     public void initMusicPlayer(){
         if(musicPlayer == null){
-            // to avoid unnecessary reinitialisation
             musicPlayer = MediaPlayer.create(this, R.raw.nyan_cat_theme);
             musicPlayer.setLooping(true);
             musicPlayer.setVolume(MainActivity.volume, MainActivity.volume);
         }
-        musicPlayer.seekTo(0);    // Reset song to position 0
+        musicPlayer.seekTo(0);
     }
     
     private void loadCoins(){
@@ -73,9 +64,6 @@ public class Game extends BaseGameActivity{
         this.coins = saves.getInt(coin_key, 0);
     }
 
-    /**
-     * Pauses the view and the music
-     */
     @Override
     protected void onPause() {
         view.pause();
@@ -85,11 +73,6 @@ public class Game extends BaseGameActivity{
         super.onPause();
     }
 
-    /**
-     * Resumes the view (but waits the view waits for a tap)
-     * and starts the music if it should be running.
-     * Also checks whether the Google Play Services are available.
-     */
     @Override
     protected void onResume() {
         view.drawOnce();
@@ -98,10 +81,7 @@ public class Game extends BaseGameActivity{
         }
         super.onResume();
     }
-    
-    /**
-     * Prevent accidental exits by requiring a double press.
-     */
+
     @Override
     public void onBackPressed() {
         if(System.currentTimeMillis() - backPressed < DOUBLE_BACK_TIME){
@@ -112,10 +92,6 @@ public class Game extends BaseGameActivity{
         }
     }
 
-    /**
-     * Sends the handler the command to show the GameOverDialog.
-     * Because it needs an UI thread.
-     */
     public void gameOver(){
         if(gameOverCounter % GAMES_PER_AD == 0) {
             handler.sendMessage(Message.obtain(handler, MyHandler.SHOW_AD));
@@ -137,9 +113,6 @@ public class Game extends BaseGameActivity{
         }
     }
 
-    /**
-     * What should happen, when an obstacle is passed?
-     */
     public void increasePoints(){
         accomplishmentBox.points++;
         
@@ -148,50 +121,31 @@ public class Game extends BaseGameActivity{
         if(accomplishmentBox.points >= AccomplishmentBox.BRONZE_POINTS){
             if(!accomplishmentBox.achievement_bronze){
                 accomplishmentBox.achievement_bronze = true;
-                if(getApiClient().isConnected()){
-                    Games.Achievements.unlock(getApiClient(), getResources().getString(R.string.achievement_bronze));
-                }else{
-                    this.coins+=25;
-                    handler.sendMessage(Message.obtain(handler, MyHandler.SHOW_TOAST, R.string.toast_achievement_bronze, MyHandler.SHOW_TOAST));
-                    this.view.changeTheme("bronze");
-                }
+                this.coins+=25;
+                handler.sendMessage(Message.obtain(handler, MyHandler.SHOW_TOAST, R.string.toast_achievement_bronze, MyHandler.SHOW_TOAST));
+                this.view.changeTheme("bronze");
             }
             
             if(accomplishmentBox.points >= AccomplishmentBox.SILVER_POINTS){
                 if(!accomplishmentBox.achievement_silver){
                     accomplishmentBox.achievement_silver = true;
-                    if(getApiClient().isConnected()){
-                        Games.Achievements.unlock(getApiClient(), getResources().getString(R.string.achievement_silver));
-                    }else{
-                        this.coins+=50;
-                        handler.sendMessage(Message.obtain(handler, MyHandler.SHOW_TOAST, R.string.toast_achievement_silver, MyHandler.SHOW_TOAST));
-                        this.view.changeTheme("silver");
-                    }
+                    this.coins+=50;
+                    handler.sendMessage(Message.obtain(handler, MyHandler.SHOW_TOAST, R.string.toast_achievement_silver, MyHandler.SHOW_TOAST));
+                    this.view.changeTheme("silver");
                 }
                 
                 if(accomplishmentBox.points >= AccomplishmentBox.GOLD_POINTS){
                     if(!accomplishmentBox.achievement_gold){
                         accomplishmentBox.achievement_gold = true;
-                        if(getApiClient().isConnected()){
-                            Games.Achievements.unlock(getApiClient(), getResources().getString(R.string.achievement_gold));
-                        }else{
-                            this.coins+=75;
-                            handler.sendMessage(Message.obtain(handler, MyHandler.SHOW_TOAST, R.string.toast_achievement_gold, MyHandler.SHOW_TOAST));
-                            this.view.changeTheme("gold");
-                        }
+                        this.coins+=75;
+                        handler.sendMessage(Message.obtain(handler, MyHandler.SHOW_TOAST, R.string.toast_achievement_gold, MyHandler.SHOW_TOAST));
+                        this.view.changeTheme("gold");
                     }
                 }
             }
         }
     }
-    
-    public GoogleApiClient getApiClient(){
-        return mHelper.getApiClient();
-    }
-    
-    /**
-     * Shows the GameOverDialog when a message with code 0 is received.
-     */
+
     class MyHandler extends Handler{
         public static final int GAME_OVER_DIALOG = 0;
         public static final int SHOW_TOAST = 1;
@@ -225,6 +179,7 @@ public class Game extends BaseGameActivity{
             game.gameOverDialog.show();
         }
     }
+
     public void showAds() {
         //mostrando la publicidad
         AppTracker.loadModule(getApplicationContext(), "inapp");
