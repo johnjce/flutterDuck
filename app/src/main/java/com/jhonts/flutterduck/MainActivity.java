@@ -75,7 +75,11 @@ public class MainActivity extends BaseGameActivity {
         public void onModuleLoaded(String s) { }
 
         @Override
-        public void onMediaFinished(boolean b) { }
+        public void onMediaFinished(boolean b) {
+            //creando cache de publicidad
+            AppTracker.destroyModule();
+            AppTracker.loadModuleToCache(getApplicationContext(), LOCATION_CODE);
+        }
     };
     /**----------------publicidad------------------**/
 

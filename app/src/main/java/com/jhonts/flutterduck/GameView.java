@@ -1,9 +1,8 @@
+package com.jhonts.flutterduck;
 /*
  * @author John Jairo Castaño Echeverri
  * Copyright (c) <2017> <jjce- ..::jhonts::..>
  */
-
-package com.jhonts.flutterduck;
 
 import android.content.Context;
 import android.graphics.Canvas;
@@ -14,6 +13,7 @@ import android.view.MotionEvent;
 import android.view.SurfaceHolder;
 import android.view.SurfaceView;
 
+import com.google.android.gms.games.Games;
 import com.jhonts.flutterduck.Game.MyHandler;
 import com.jhonts.flutterduck.sprites.Background;
 import com.jhonts.flutterduck.sprites.Coin;
@@ -35,23 +35,23 @@ import java.util.TimerTask;
 public class GameView extends SurfaceView{
 
     public static final long UPDATE_INTERVAL = 50;        // = 20 FPS
-    
+
     private Timer timer = new Timer();
     private TimerTask timerTask;
 
     private SurfaceHolder holder;
-    
+
     private Game game;
     private PlayableCharacter player;
     private Background background;
     private Frontground frontground;
-    private List<Obstacle> obstacles = new ArrayList<>();
-    private List<PowerUp> powerUps = new ArrayList<>();
+    private List<Obstacle> obstacles = new ArrayList<Obstacle>();
+    private List<PowerUp> powerUps = new ArrayList<PowerUp>();
     private int theme;
-    
+
     private PauseButton pauseButton;
     volatile private boolean paused = true;
-    
+
     private Tutorial tutorial;
     private boolean tutorialIsShown = true;
 
@@ -68,13 +68,13 @@ public class GameView extends SurfaceView{
         tutorial = new Tutorial(this, game);
         setTheme(0);
     }
-    
+
     private void startTimer() {
         setUpTimerTask();
         timer = new Timer();
         timer.schedule(timerTask, UPDATE_INTERVAL, UPDATE_INTERVAL);
     }
-    
+
     private void stopTimer() {
         if (timer != null) {
             timer.cancel();
@@ -84,7 +84,7 @@ public class GameView extends SurfaceView{
             timerTask.cancel();
         }
     }
-    
+
     private void setUpTimerTask() {
         stopTimer();
         timerTask = new TimerTask() {
@@ -94,12 +94,12 @@ public class GameView extends SurfaceView{
             }
         };
     }
-    
+
     @Override
     public boolean performClick() {
         return super.performClick();
     }
-    
+
     @Override
     public boolean onTouchEvent(MotionEvent event) {
         performClick();
@@ -131,23 +131,23 @@ public class GameView extends SurfaceView{
     public void showTutorial(){
         player.move();
         pauseButton.move();
-        
+
         while(!holder.getSurface().isValid()){
             try { Thread.sleep(10); } catch (InterruptedException e) { e.printStackTrace(); }
         }
-        
+
         Canvas canvas = holder.lockCanvas();
         drawCanvas(canvas, true);
         tutorial.move();
         tutorial.draw(canvas);
         holder.unlockCanvasAndPost(canvas);
     }
-    
+
     public void pause(){
         stopTimer();
         paused = true;
     }
-    
+
     public void drawOnce(){
         (new Thread(new Runnable() {
             @Override
@@ -160,7 +160,7 @@ public class GameView extends SurfaceView{
             }
         })).start();
     }
-    
+
     public void resume(){
         paused = false;
         startTimer();
@@ -194,7 +194,7 @@ public class GameView extends SurfaceView{
         paint.setTextSize(getScoreTextMetrics());
         canvas.drawText(game.getResources().getString(R.string.onscreen_score_text) + " " + game.accomplishmentBox.points
                         + " / " + game.getResources().getString(R.string.onscreen_coin_text) + " " + game.coins,
-                        0, getScoreTextMetrics(), paint);
+                0, getScoreTextMetrics(), paint);
     }
 
     private void playerDeadFall(){
@@ -225,7 +225,7 @@ public class GameView extends SurfaceView{
                 powerUps.add(new Toast(this, game));
             }
         }
-        
+
         if((powerUps.size() < 1) && (Math.random()*100 < 20)){
             powerUps.add(new Coin(this, game));
         }
@@ -279,21 +279,22 @@ public class GameView extends SurfaceView{
         for(PowerUp p : powerUps){
             p.move();
         }
-        
+
         background.setSpeedX(-getSpeedX()/2);
         background.move();
-        
+
         frontground.setSpeedX(-getSpeedX()*4/3);
         frontground.move();
-        
+
         pauseButton.move();
-        
+
         player.move();
     }
 
     public void changeToNyanCat(){
         game.accomplishmentBox.achievement_toastification = true;
-        Game.handler.sendMessage(Message.obtain(Game.handler,1,R.string.toast_achievement_toastification, MyHandler.SHOW_TOAST));
+        game.handler.sendMessage(Message.obtain(game.handler,1,R.string.toast_achievement_toastification, MyHandler.SHOW_TOAST));
+
         PlayableCharacter tmp = this.player;
         this.player = new NyanCat(this, game);
         this.player.setX(tmp.getX());
@@ -331,7 +332,7 @@ public class GameView extends SurfaceView{
         playerDeadFall();
         game.gameOver();
     }
-    
+
     public void revive() {
         game.numberOfRevive++;
         new Thread(new Runnable() {
@@ -362,11 +363,11 @@ public class GameView extends SurfaceView{
     public int getScoreTextMetrics(){
         return (int) (this.getHeight() / 21.0f);
     }
-    
+
     public PlayableCharacter getPlayer(){
         return this.player;
     }
-    
+
     public Game getGame(){
         return this.game;
     }
@@ -376,15 +377,15 @@ public class GameView extends SurfaceView{
     public void setTheme(int a){ this.theme=a; }
 
     public void changeTheme(String medal) {//aqui cambio el fondo y los obstaculos al cambiar de nivel
-        if (medal.equals("gold")) {
+        if (medal == "gold") {
             background.changeTheme(R.drawable.gbg);
             frontground.changeTheme(R.drawable.gfg);
             setTheme(3);
-        }else if (medal.equals("silver")) {
+        }else if (medal == "silver") {
             background.changeTheme(R.drawable.sbg);
             frontground.changeTheme(R.drawable.sfg);
             setTheme(2);
-        }else if (medal.equals( "bronze")){
+        }else if (medal == "bronze"){
             background.changeTheme(R.drawable.bbg);
             frontground.changeTheme(R.drawable.bfb);
             setTheme(1);

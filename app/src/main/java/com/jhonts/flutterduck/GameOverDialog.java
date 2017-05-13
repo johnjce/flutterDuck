@@ -15,20 +15,20 @@ import android.widget.TextView;
 
 
 public class GameOverDialog extends Dialog {
-    private static final int REVIVE_PRICE = 5;
-    static final String score_save_name = "score_save";
-    static final String best_score_key = "score";
+    public static final int REVIVE_PRICE = 5;
+    public static final String score_save_name = "score_save";
+    public static final String best_score_key = "score";
     private Game game;
 
     private TextView tvCurrentScoreVal;
     private TextView tvBestScoreVal;
 
-    GameOverDialog(Game game) {
+    public GameOverDialog(Game game) {
         super(game);
         this.game = game;
         this.setContentView(R.layout.gameover);
         this.setCancelable(false);
-        
+
         tvCurrentScoreVal = (TextView) findViewById(R.id.tv_current_score_value);
         tvBestScoreVal = (TextView) findViewById(R.id.tv_best_score_value);
     }
@@ -42,7 +42,7 @@ public class GameOverDialog extends Dialog {
                 if(game.numberOfRevive <= 1){
                     game.accomplishmentBox.saveLocal(game);
                 }
-                
+
                 dismiss();
                 game.finish();
             }
@@ -50,8 +50,8 @@ public class GameOverDialog extends Dialog {
 
         Button reviveButton = (Button) findViewById(R.id.b_revive);
         reviveButton.setText(game.getResources().getString(R.string.revive_button)
-                            + " " + REVIVE_PRICE * game.numberOfRevive + " "
-                            + game.getResources().getString(R.string.coins));
+                + " " + REVIVE_PRICE * game.numberOfRevive + " "
+                + game.getResources().getString(R.string.coins));
         reviveButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -67,11 +67,11 @@ public class GameOverDialog extends Dialog {
         }else{
             reviveButton.setClickable(true);
         }
-        
+
         manageScore();
         manageMedals();
     }
-    
+
     private void manageScore(){
         SharedPreferences saves = game.getSharedPreferences(score_save_name, 0);
         int oldPoints = saves.getInt(best_score_key, 0);
@@ -84,11 +84,11 @@ public class GameOverDialog extends Dialog {
         tvCurrentScoreVal.setText("" + game.accomplishmentBox.points);
         tvBestScoreVal.setText("" + oldPoints);
     }
-    
+
     private void manageMedals(){
         SharedPreferences medaille_save = game.getSharedPreferences(MainActivity.medaille_save, 0);
         int medaille = medaille_save.getInt(MainActivity.medaille_key, 0);
-      
+
         SharedPreferences.Editor editor = medaille_save.edit();
 
         if(game.accomplishmentBox.achievement_gold){
@@ -107,11 +107,11 @@ public class GameOverDialog extends Dialog {
                 editor.putInt(MainActivity.medaille_key, 1);
             }
         }else{
-            findViewById(R.id.medaille).setVisibility(View.INVISIBLE);
+            ((ImageView)findViewById(R.id.medaille)).setVisibility(View.INVISIBLE);
         }
         editor.commit();
     }
-    
+
     private void saveCoins(){
         SharedPreferences coin_save = game.getSharedPreferences(Game.coin_save, 0);
         coin_save.getInt(Game.coin_key, 0);

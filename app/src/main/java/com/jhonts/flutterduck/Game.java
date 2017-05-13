@@ -28,13 +28,12 @@ public class Game extends BaseGameActivity{
     public boolean musicShouldPlay = false;
     private static final long DOUBLE_BACK_TIME = 1000;
     private long backPressed;
-    public static MyHandler handler;
+    public MyHandler handler;
     public AccomplishmentBox accomplishmentBox;
     GameView view;
     int coins;
     public int numberOfRevive = 1;
     GameOverDialog gameOverDialog;
-    public static boolean game;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -47,7 +46,7 @@ public class Game extends BaseGameActivity{
         initMusicPlayer();
         loadCoins();
         if(gameOverCounter % GAMES_PER_AD == 0) {
-            AppTracker.loadModule(getApplicationContext(), "inapp");
+            setupAds();
         }
     }
 
@@ -59,7 +58,7 @@ public class Game extends BaseGameActivity{
         }
         musicPlayer.seekTo(0);
     }
-    
+
     private void loadCoins(){
         SharedPreferences saves = this.getSharedPreferences(coin_save, 0);
         this.coins = saves.getInt(coin_key, 0);
@@ -95,47 +94,51 @@ public class Game extends BaseGameActivity{
 
     public void gameOver(){
         if(gameOverCounter % GAMES_PER_AD == 0) {
-            this.handler.sendMessage(Message.obtain(handler, MyHandler.SHOW_AD));
+            handler.sendMessage(Message.obtain(handler, MyHandler.SHOW_AD));
         } else {
-            this.handler.sendMessage(Message.obtain(handler, MyHandler.GAME_OVER_DIALOG));
+            handler.sendMessage(Message.obtain(handler, MyHandler.GAME_OVER_DIALOG));
         }
-        
+
     }
-    
+
     public void increaseCoin(){
         this.coins+=10;
-        if(this.coins >= 50 && !this.accomplishmentBox.achievement_50_coins){
-            this.accomplishmentBox.achievement_50_coins = true;
-            this.handler.sendMessage(Message.obtain(handler,1,R.string.toast_achievement_50_coins, MyHandler.SHOW_TOAST));
+        if(coins >= 50 && !accomplishmentBox.achievement_50_coins){
+            accomplishmentBox.achievement_50_coins = true;
+            if(getApiClient().isConnected()){
+                Games.Achievements.unlock(getApiClient(), getResources().getString(R.string.achievement_50_coins));
+            }else{
+                handler.sendMessage(Message.obtain(handler,1,R.string.toast_achievement_50_coins, MyHandler.SHOW_TOAST));
+            }
         }
     }
 
     public void increasePoints(){
-        this.accomplishmentBox.points++;
-        
+        accomplishmentBox.points++;
+
         this.view.getPlayer().upgradeBitmap(accomplishmentBox.points);
-        
-        if(this.accomplishmentBox.points >= AccomplishmentBox.BRONZE_POINTS){
-            if(!this.accomplishmentBox.achievement_bronze){
-                this.accomplishmentBox.achievement_bronze = true;
+
+        if(accomplishmentBox.points >= AccomplishmentBox.BRONZE_POINTS){
+            if(!accomplishmentBox.achievement_bronze){
+                accomplishmentBox.achievement_bronze = true;
                 this.coins+=25;
-                this.handler.sendMessage(Message.obtain(this.handler, MyHandler.SHOW_TOAST, R.string.toast_achievement_bronze, MyHandler.SHOW_TOAST));
+                handler.sendMessage(Message.obtain(handler, MyHandler.SHOW_TOAST, R.string.toast_achievement_bronze, MyHandler.SHOW_TOAST));
                 this.view.changeTheme("bronze");
             }
-            
-            if(this.accomplishmentBox.points >= AccomplishmentBox.SILVER_POINTS){
-                if(!this.accomplishmentBox.achievement_silver){
-                    this.accomplishmentBox.achievement_silver = true;
+
+            if(accomplishmentBox.points >= AccomplishmentBox.SILVER_POINTS){
+                if(!accomplishmentBox.achievement_silver){
+                    accomplishmentBox.achievement_silver = true;
                     this.coins+=50;
-                    this.handler.sendMessage(Message.obtain(this.handler, MyHandler.SHOW_TOAST, R.string.toast_achievement_silver, MyHandler.SHOW_TOAST));
+                    handler.sendMessage(Message.obtain(handler, MyHandler.SHOW_TOAST, R.string.toast_achievement_silver, MyHandler.SHOW_TOAST));
                     this.view.changeTheme("silver");
                 }
-                
-                if(this.accomplishmentBox.points >= AccomplishmentBox.GOLD_POINTS){
-                    if(!this.accomplishmentBox.achievement_gold){
-                        this.accomplishmentBox.achievement_gold = true;
+
+                if(accomplishmentBox.points >= AccomplishmentBox.GOLD_POINTS){
+                    if(!accomplishmentBox.achievement_gold){
+                        accomplishmentBox.achievement_gold = true;
                         this.coins+=75;
-                        this.handler.sendMessage(Message.obtain(this.handler, MyHandler.SHOW_TOAST, R.string.toast_achievement_gold, MyHandler.SHOW_TOAST));
+                        handler.sendMessage(Message.obtain(handler, MyHandler.SHOW_TOAST, R.string.toast_achievement_gold, MyHandler.SHOW_TOAST));
                         this.view.changeTheme("gold");
                     }
                 }
@@ -147,13 +150,13 @@ public class Game extends BaseGameActivity{
         public static final int GAME_OVER_DIALOG = 0;
         public static final int SHOW_TOAST = 1;
         public static final int SHOW_AD = 2;
-        
+
         private Game game;
-        
-        MyHandler(Game game){
+
+        public MyHandler(Game game){
             this.game = game;
         }
-        
+
         @Override
         public void handleMessage(Message msg) {
             switch(msg.what){
@@ -164,8 +167,8 @@ public class Game extends BaseGameActivity{
                     Toast.makeText(game, msg.arg1, Toast.LENGTH_SHORT).show();
                     break;
                 case SHOW_AD:
-                    AppTracker.loadModule(getApplicationContext(), "inapp");
-                    showGameOverDialog();// en caso de que la publicidad no cargue pasa y carga esto
+                    showGameOverDialog();
+                    showAds();
                     break;
             }
         }
@@ -177,6 +180,14 @@ public class Game extends BaseGameActivity{
         }
     }
 
+    public void showAds() {
+        //mostrando la publicidad
+        AppTracker.loadModule(getApplicationContext(), "inapp");
+    }
+
+    public void setupAds(){
+        showAds();
+    }
     @Override
     public void onSignInFailed() {}
 
