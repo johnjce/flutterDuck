@@ -1,7 +1,4 @@
-/**
- * Saves achievements and score in shared preferences.
- * You should use a SQLite DB instead, but I'm too lazy to chance it now.
- * 
+/*
  * @author John Jairo Castaño Echeverri
  * Copyright (c) <2017> <jjce- ..::jhonts::..>
  */
@@ -12,23 +9,23 @@ import android.app.Activity;
 import android.content.SharedPreferences;
 
 public class AccomplishmentBox{
-    public static final int GOLD_POINTS = 100;
-    public static final int SILVER_POINTS = 75;
-    public static final int BRONZE_POINTS = 25;
-    public static final String SAVE_NAME = "ACCOMBLISHMENTS";
-    public static final String KEY_POINTS = "points";
-    public static final String ACHIEVEMENT_KEY_50_COINS = "achievement_survive_5_minutes";
-    public static final String ACHIEVEMENT_KEY_TOASTIFICATION = "achievement_toastification";
-    public static final String ACHIEVEMENT_KEY_BRONZE = "achievement_bronze";
-    public static final String ACHIEVEMENT_KEY_SILVER = "achievement_silver";
-    public static final String ACHIEVEMENT_KEY_GOLD = "achievement_gold";
+    public static final int GOLD_POINTS = 140;
+    public static final int SILVER_POINTS = 70;
+    public static final int BRONZE_POINTS = 35;
+    public  static final String SAVE_NAME = "ACCOMBLISHMENTS";
+    public  static final String KEY_POINTS = "points";
+    public  static final String ACHIEVEMENT_KEY_50_COINS = "achievement_survive_5_minutes";
+    public  static final String ACHIEVEMENT_KEY_TOASTIFICATION = "achievement_toastification";
+    public  static final String ACHIEVEMENT_KEY_BRONZE = "achievement_bronze";
+    public  static final String ACHIEVEMENT_KEY_SILVER = "achievement_silver";
+    public  static final String ACHIEVEMENT_KEY_GOLD = "achievement_gold";
 
-    public int points;
-    public boolean achievement_50_coins;
+    int points;
+    boolean achievement_50_coins;
     public boolean achievement_toastification;
-    public boolean achievement_bronze;
-    public boolean achievement_silver;
-    public boolean achievement_gold;
+    boolean achievement_bronze;
+    boolean achievement_silver;
+    boolean achievement_gold;
 
     public void saveLocal(Activity activity){
         SharedPreferences saves = activity.getSharedPreferences(SAVE_NAME, 0);

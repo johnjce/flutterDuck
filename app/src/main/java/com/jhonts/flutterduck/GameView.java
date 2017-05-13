@@ -1,7 +1,4 @@
-/**
- * GameView
- * Probably the most important class for the game
- * 
+/*
  * @author John Jairo Castaño Echeverri
  * Copyright (c) <2017> <jjce- ..::jhonts::..>
  */
@@ -17,7 +14,6 @@ import android.view.MotionEvent;
 import android.view.SurfaceHolder;
 import android.view.SurfaceView;
 
-import com.google.android.gms.games.Games;
 import com.jhonts.flutterduck.Game.MyHandler;
 import com.jhonts.flutterduck.sprites.Background;
 import com.jhonts.flutterduck.sprites.Coin;
@@ -49,8 +45,8 @@ public class GameView extends SurfaceView{
     private PlayableCharacter player;
     private Background background;
     private Frontground frontground;
-    private List<Obstacle> obstacles = new ArrayList<Obstacle>();
-    private List<PowerUp> powerUps = new ArrayList<PowerUp>();
+    private List<Obstacle> obstacles = new ArrayList<>();
+    private List<PowerUp> powerUps = new ArrayList<>();
     private int theme;
     
     private PauseButton pauseButton;
@@ -297,8 +293,7 @@ public class GameView extends SurfaceView{
 
     public void changeToNyanCat(){
         game.accomplishmentBox.achievement_toastification = true;
-        game.handler.sendMessage(Message.obtain(game.handler,1,R.string.toast_achievement_toastification, MyHandler.SHOW_TOAST));
-
+        Game.handler.sendMessage(Message.obtain(Game.handler,1,R.string.toast_achievement_toastification, MyHandler.SHOW_TOAST));
         PlayableCharacter tmp = this.player;
         this.player = new NyanCat(this, game);
         this.player.setX(tmp.getX());
@@ -381,15 +376,15 @@ public class GameView extends SurfaceView{
     public void setTheme(int a){ this.theme=a; }
 
     public void changeTheme(String medal) {//aqui cambio el fondo y los obstaculos al cambiar de nivel
-        if (medal == "gold") {
+        if (medal.equals("gold")) {
             background.changeTheme(R.drawable.gbg);
             frontground.changeTheme(R.drawable.gfg);
             setTheme(3);
-        }else if (medal == "silver") {
+        }else if (medal.equals("silver")) {
             background.changeTheme(R.drawable.sbg);
             frontground.changeTheme(R.drawable.sfg);
             setTheme(2);
-        }else if (medal == "bronze"){
+        }else if (medal.equals( "bronze")){
             background.changeTheme(R.drawable.bbg);
             frontground.changeTheme(R.drawable.bfb);
             setTheme(1);

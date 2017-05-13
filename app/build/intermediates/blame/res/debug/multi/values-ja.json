@@ -1403,7 +1403,14 @@
                     "endOffset": 197
                 },
                 "from": {
-                    "file": "C:\\Users\\jhonts\\.android\\build-cache\\008957a58e8ae6afd169392f2000bd28b2e0fe24\\output\\res\\values-ja\\values-ja.xml"
+                    "file": "C:\\Users\\jhonts\\.android\\build-cache\\008957a58e8ae6afd169392f2000bd28b2e0fe24\\output\\res\\values-ja\\values-ja.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 96,
+                        "endOffset": 147
+                    }
                 }
             },
             {
@@ -1415,7 +1422,14 @@
                     "endOffset": 304
                 },
                 "from": {
-                    "file": "C:\\Users\\jhonts\\.android\\build-cache\\008957a58e8ae6afd169392f2000bd28b2e0fe24\\output\\res\\values-ja\\values-ja.xml"
+                    "file": "C:\\Users\\jhonts\\.android\\build-cache\\008957a58e8ae6afd169392f2000bd28b2e0fe24\\output\\res\\values-ja\\values-ja.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 152,
+                        "endColumn": 106,
+                        "endOffset": 254
+                    }
                 }
             },
             {
@@ -1427,7 +1441,14 @@
                     "endOffset": 425
                 },
                 "from": {
-                    "file": "C:\\Users\\jhonts\\.android\\build-cache\\008957a58e8ae6afd169392f2000bd28b2e0fe24\\output\\res\\values-ja\\values-ja.xml"
+                    "file": "C:\\Users\\jhonts\\.android\\build-cache\\008957a58e8ae6afd169392f2000bd28b2e0fe24\\output\\res\\values-ja\\values-ja.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 259,
+                        "endColumn": 120,
+                        "endOffset": 375
+                    }
                 }
             },
             {
@@ -1439,7 +1460,14 @@
                     "endOffset": 518
                 },
                 "from": {
-                    "file": "C:\\Users\\jhonts\\.android\\build-cache\\008957a58e8ae6afd169392f2000bd28b2e0fe24\\output\\res\\values-ja\\values-ja.xml"
+                    "file": "C:\\Users\\jhonts\\.android\\build-cache\\008957a58e8ae6afd169392f2000bd28b2e0fe24\\output\\res\\values-ja\\values-ja.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 380,
+                        "endColumn": 92,
+                        "endOffset": 468
+                    }
                 }
             },
             {
@@ -1451,7 +1479,14 @@
                     "endOffset": 623
                 },
                 "from": {
-                    "file": "C:\\Users\\jhonts\\.android\\build-cache\\008957a58e8ae6afd169392f2000bd28b2e0fe24\\output\\res\\values-ja\\values-ja.xml"
+                    "file": "C:\\Users\\jhonts\\.android\\build-cache\\008957a58e8ae6afd169392f2000bd28b2e0fe24\\output\\res\\values-ja\\values-ja.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 473,
+                        "endColumn": 104,
+                        "endOffset": 573
+                    }
                 }
             },
             {
@@ -1463,7 +1498,14 @@
                     "endOffset": 705
                 },
                 "from": {
-                    "file": "C:\\Users\\jhonts\\.android\\build-cache\\008957a58e8ae6afd169392f2000bd28b2e0fe24\\output\\res\\values-ja\\values-ja.xml"
+                    "file": "C:\\Users\\jhonts\\.android\\build-cache\\008957a58e8ae6afd169392f2000bd28b2e0fe24\\output\\res\\values-ja\\values-ja.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 578,
+                        "endColumn": 81,
+                        "endOffset": 655
+                    }
                 }
             },
             {
@@ -1475,7 +1517,14 @@
                     "endOffset": 803
                 },
                 "from": {
-                    "file": "C:\\Users\\jhonts\\.android\\build-cache\\008957a58e8ae6afd169392f2000bd28b2e0fe24\\output\\res\\values-ja\\values-ja.xml"
+                    "file": "C:\\Users\\jhonts\\.android\\build-cache\\008957a58e8ae6afd169392f2000bd28b2e0fe24\\output\\res\\values-ja\\values-ja.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 660,
+                        "endColumn": 97,
+                        "endOffset": 753
+                    }
                 }
             },
             {
@@ -1487,7 +1536,14 @@
                     "endOffset": 911
                 },
                 "from": {
-                    "file": "C:\\Users\\jhonts\\.android\\build-cache\\008957a58e8ae6afd169392f2000bd28b2e0fe24\\output\\res\\values-ja\\values-ja.xml"
+                    "file": "C:\\Users\\jhonts\\.android\\build-cache\\008957a58e8ae6afd169392f2000bd28b2e0fe24\\output\\res\\values-ja\\values-ja.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 758,
+                        "endColumn": 107,
+                        "endOffset": 861
+                    }
                 }
             },
             {
@@ -1499,7 +1555,14 @@
                     "endOffset": 988
                 },
                 "from": {
-                    "file": "C:\\Users\\jhonts\\.android\\build-cache\\008957a58e8ae6afd169392f2000bd28b2e0fe24\\output\\res\\values-ja\\values-ja.xml"
+                    "file": "C:\\Users\\jhonts\\.android\\build-cache\\008957a58e8ae6afd169392f2000bd28b2e0fe24\\output\\res\\values-ja\\values-ja.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 866,
+                        "endColumn": 76,
+                        "endOffset": 938
+                    }
                 }
             },
             {
@@ -1511,7 +1574,14 @@
                     "endOffset": 1064
                 },
                 "from": {
-                    "file": "C:\\Users\\jhonts\\.android\\build-cache\\008957a58e8ae6afd169392f2000bd28b2e0fe24\\output\\res\\values-ja\\values-ja.xml"
+                    "file": "C:\\Users\\jhonts\\.android\\build-cache\\008957a58e8ae6afd169392f2000bd28b2e0fe24\\output\\res\\values-ja\\values-ja.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 943,
+                        "endColumn": 75,
+                        "endOffset": 1014
+                    }
                 }
             },
             {
@@ -1523,7 +1593,14 @@
                     "endOffset": 1142
                 },
                 "from": {
-                    "file": "C:\\Users\\jhonts\\.android\\build-cache\\008957a58e8ae6afd169392f2000bd28b2e0fe24\\output\\res\\values-ja\\values-ja.xml"
+                    "file": "C:\\Users\\jhonts\\.android\\build-cache\\008957a58e8ae6afd169392f2000bd28b2e0fe24\\output\\res\\values-ja\\values-ja.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 1019,
+                        "endColumn": 77,
+                        "endOffset": 1092
+                    }
                 }
             },
             {
@@ -1535,7 +1612,14 @@
                     "endOffset": 1244
                 },
                 "from": {
-                    "file": "C:\\Users\\jhonts\\.android\\build-cache\\008957a58e8ae6afd169392f2000bd28b2e0fe24\\output\\res\\values-ja\\values-ja.xml"
+                    "file": "C:\\Users\\jhonts\\.android\\build-cache\\008957a58e8ae6afd169392f2000bd28b2e0fe24\\output\\res\\values-ja\\values-ja.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 1097,
+                        "endColumn": 101,
+                        "endOffset": 1194
+                    }
                 }
             },
             {
@@ -1547,7 +1631,14 @@
                     "endOffset": 1343
                 },
                 "from": {
-                    "file": "C:\\Users\\jhonts\\.android\\build-cache\\008957a58e8ae6afd169392f2000bd28b2e0fe24\\output\\res\\values-ja\\values-ja.xml"
+                    "file": "C:\\Users\\jhonts\\.android\\build-cache\\008957a58e8ae6afd169392f2000bd28b2e0fe24\\output\\res\\values-ja\\values-ja.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 1199,
+                        "endColumn": 98,
+                        "endOffset": 1293
+                    }
                 }
             },
             {
@@ -1559,7 +1650,14 @@
                     "endOffset": 1438
                 },
                 "from": {
-                    "file": "C:\\Users\\jhonts\\.android\\build-cache\\008957a58e8ae6afd169392f2000bd28b2e0fe24\\output\\res\\values-ja\\values-ja.xml"
+                    "file": "C:\\Users\\jhonts\\.android\\build-cache\\008957a58e8ae6afd169392f2000bd28b2e0fe24\\output\\res\\values-ja\\values-ja.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 1298,
+                        "endColumn": 94,
+                        "endOffset": 1388
+                    }
                 }
             },
             {
@@ -1571,7 +1669,14 @@
                     "endOffset": 1541
                 },
                 "from": {
-                    "file": "C:\\Users\\jhonts\\.android\\build-cache\\008957a58e8ae6afd169392f2000bd28b2e0fe24\\output\\res\\values-ja\\values-ja.xml"
+                    "file": "C:\\Users\\jhonts\\.android\\build-cache\\008957a58e8ae6afd169392f2000bd28b2e0fe24\\output\\res\\values-ja\\values-ja.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 1393,
+                        "endColumn": 102,
+                        "endOffset": 1491
+                    }
                 }
             },
             {
@@ -1583,7 +1688,14 @@
                     "endOffset": 1636
                 },
                 "from": {
-                    "file": "C:\\Users\\jhonts\\.android\\build-cache\\008957a58e8ae6afd169392f2000bd28b2e0fe24\\output\\res\\values-ja\\values-ja.xml"
+                    "file": "C:\\Users\\jhonts\\.android\\build-cache\\008957a58e8ae6afd169392f2000bd28b2e0fe24\\output\\res\\values-ja\\values-ja.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 1496,
+                        "endColumn": 94,
+                        "endOffset": 1586
+                    }
                 }
             },
             {
@@ -1595,7 +1707,14 @@
                     "endOffset": 1732
                 },
                 "from": {
-                    "file": "C:\\Users\\jhonts\\.android\\build-cache\\008957a58e8ae6afd169392f2000bd28b2e0fe24\\output\\res\\values-ja\\values-ja.xml"
+                    "file": "C:\\Users\\jhonts\\.android\\build-cache\\008957a58e8ae6afd169392f2000bd28b2e0fe24\\output\\res\\values-ja\\values-ja.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 1591,
+                        "endColumn": 95,
+                        "endOffset": 1682
+                    }
                 }
             },
             {
@@ -1607,7 +1726,14 @@
                     "endOffset": 1843
                 },
                 "from": {
-                    "file": "C:\\Users\\jhonts\\.android\\build-cache\\008957a58e8ae6afd169392f2000bd28b2e0fe24\\output\\res\\values-ja\\values-ja.xml"
+                    "file": "C:\\Users\\jhonts\\.android\\build-cache\\008957a58e8ae6afd169392f2000bd28b2e0fe24\\output\\res\\values-ja\\values-ja.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 1687,
+                        "endColumn": 110,
+                        "endOffset": 1793
+                    }
                 }
             },
             {
@@ -1619,7 +1745,14 @@
                     "endOffset": 1940
                 },
                 "from": {
-                    "file": "C:\\Users\\jhonts\\.android\\build-cache\\008957a58e8ae6afd169392f2000bd28b2e0fe24\\output\\res\\values-ja\\values-ja.xml"
+                    "file": "C:\\Users\\jhonts\\.android\\build-cache\\008957a58e8ae6afd169392f2000bd28b2e0fe24\\output\\res\\values-ja\\values-ja.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 1798,
+                        "endColumn": 96,
+                        "endOffset": 1890
+                    }
                 }
             },
             {
@@ -1631,7 +1764,14 @@
                     "endOffset": 1991
                 },
                 "from": {
-                    "file": "C:\\Users\\jhonts\\Desktop\\flappyDuck\\flutterDuck\\app\\src\\main\\res\\values-ja\\strings.xml"
+                    "file": "C:\\Users\\jhonts\\Desktop\\flappyDuck\\flutterDuck\\app\\src\\main\\res\\values-ja\\strings.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 417,
+                        "endColumn": 50,
+                        "endOffset": 463
+                    }
                 }
             },
             {
@@ -1643,7 +1783,14 @@
                     "endOffset": 2038
                 },
                 "from": {
-                    "file": "C:\\Users\\jhonts\\Desktop\\flappyDuck\\flutterDuck\\app\\src\\main\\res\\values-ja\\strings.xml"
+                    "file": "C:\\Users\\jhonts\\Desktop\\flappyDuck\\flutterDuck\\app\\src\\main\\res\\values-ja\\strings.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 369,
+                        "endColumn": 46,
+                        "endOffset": 411
+                    }
                 }
             },
             {
@@ -1655,7 +1802,14 @@
                     "endOffset": 2392
                 },
                 "from": {
-                    "file": "C:\\Users\\jhonts\\Desktop\\flappyDuck\\flutterDuck\\app\\src\\main\\res\\values-ja\\strings.xml"
+                    "file": "C:\\Users\\jhonts\\Desktop\\flappyDuck\\flutterDuck\\app\\src\\main\\res\\values-ja\\strings.xml",
+                    "position": {
+                        "startLine": 31,
+                        "startColumn": 4,
+                        "startOffset": 1880,
+                        "endColumn": 353,
+                        "endOffset": 2229
+                    }
                 }
             },
             {
@@ -1667,7 +1821,14 @@
                     "endOffset": 2446
                 },
                 "from": {
-                    "file": "C:\\Users\\jhonts\\Desktop\\flappyDuck\\flutterDuck\\app\\src\\main\\res\\values-ja\\strings.xml"
+                    "file": "C:\\Users\\jhonts\\Desktop\\flappyDuck\\flutterDuck\\app\\src\\main\\res\\values-ja\\strings.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 212,
+                        "endColumn": 53,
+                        "endOffset": 261
+                    }
                 }
             },
             {
@@ -1679,7 +1840,14 @@
                     "endOffset": 2486
                 },
                 "from": {
-                    "file": "C:\\Users\\jhonts\\Desktop\\flappyDuck\\flutterDuck\\app\\src\\main\\res\\values-ja\\strings.xml"
+                    "file": "C:\\Users\\jhonts\\Desktop\\flappyDuck\\flutterDuck\\app\\src\\main\\res\\values-ja\\strings.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 611,
+                        "endColumn": 39,
+                        "endOffset": 646
+                    }
                 }
             },
             {
@@ -1691,7 +1859,14 @@
                     "endOffset": 2592
                 },
                 "from": {
-                    "file": "C:\\Users\\jhonts\\.android\\build-cache\\a49524380c4a7d10174014a070c0eac48d3d38ae\\output\\res\\values-ja\\values.xml"
+                    "file": "C:\\Users\\jhonts\\.android\\build-cache\\a49524380c4a7d10174014a070c0eac48d3d38ae\\output\\res\\values-ja\\values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 329,
+                        "endColumn": 105,
+                        "endOffset": 430
+                    }
                 }
             },
             {
@@ -1703,7 +1878,14 @@
                     "endOffset": 2758
                 },
                 "from": {
-                    "file": "C:\\Users\\jhonts\\.android\\build-cache\\a49524380c4a7d10174014a070c0eac48d3d38ae\\output\\res\\values-ja\\values.xml"
+                    "file": "C:\\Users\\jhonts\\.android\\build-cache\\a49524380c4a7d10174014a070c0eac48d3d38ae\\output\\res\\values-ja\\values.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 435,
+                        "endColumn": 165,
+                        "endOffset": 596
+                    }
                 }
             },
             {
@@ -1715,7 +1897,14 @@
                     "endOffset": 2880
                 },
                 "from": {
-                    "file": "C:\\Users\\jhonts\\.android\\build-cache\\a49524380c4a7d10174014a070c0eac48d3d38ae\\output\\res\\values-ja\\values.xml"
+                    "file": "C:\\Users\\jhonts\\.android\\build-cache\\a49524380c4a7d10174014a070c0eac48d3d38ae\\output\\res\\values-ja\\values.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 601,
+                        "endColumn": 121,
+                        "endOffset": 718
+                    }
                 }
             },
             {
@@ -1727,7 +1916,14 @@
                     "endOffset": 3003
                 },
                 "from": {
-                    "file": "C:\\Users\\jhonts\\.android\\build-cache\\a49524380c4a7d10174014a070c0eac48d3d38ae\\output\\res\\values-ja\\values.xml"
+                    "file": "C:\\Users\\jhonts\\.android\\build-cache\\a49524380c4a7d10174014a070c0eac48d3d38ae\\output\\res\\values-ja\\values.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 723,
+                        "endColumn": 122,
+                        "endOffset": 841
+                    }
                 }
             },
             {
@@ -1739,7 +1935,14 @@
                     "endOffset": 3199
                 },
                 "from": {
-                    "file": "C:\\Users\\jhonts\\.android\\build-cache\\a49524380c4a7d10174014a070c0eac48d3d38ae\\output\\res\\values-ja\\values.xml"
+                    "file": "C:\\Users\\jhonts\\.android\\build-cache\\a49524380c4a7d10174014a070c0eac48d3d38ae\\output\\res\\values-ja\\values.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 846,
+                        "endColumn": 195,
+                        "endOffset": 1037
+                    }
                 }
             },
             {
@@ -1751,7 +1954,14 @@
                     "endOffset": 3394
                 },
                 "from": {
-                    "file": "C:\\Users\\jhonts\\.android\\build-cache\\a49524380c4a7d10174014a070c0eac48d3d38ae\\output\\res\\values-ja\\values.xml"
+                    "file": "C:\\Users\\jhonts\\.android\\build-cache\\a49524380c4a7d10174014a070c0eac48d3d38ae\\output\\res\\values-ja\\values.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 1042,
+                        "endColumn": 194,
+                        "endOffset": 1232
+                    }
                 }
             },
             {
@@ -1763,7 +1973,14 @@
                     "endOffset": 3516
                 },
                 "from": {
-                    "file": "C:\\Users\\jhonts\\.android\\build-cache\\a49524380c4a7d10174014a070c0eac48d3d38ae\\output\\res\\values-ja\\values.xml"
+                    "file": "C:\\Users\\jhonts\\.android\\build-cache\\a49524380c4a7d10174014a070c0eac48d3d38ae\\output\\res\\values-ja\\values.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 1237,
+                        "endColumn": 121,
+                        "endOffset": 1354
+                    }
                 }
             },
             {
@@ -1775,7 +1992,14 @@
                     "endOffset": 3644
                 },
                 "from": {
-                    "file": "C:\\Users\\jhonts\\.android\\build-cache\\a49524380c4a7d10174014a070c0eac48d3d38ae\\output\\res\\values-ja\\values.xml"
+                    "file": "C:\\Users\\jhonts\\.android\\build-cache\\a49524380c4a7d10174014a070c0eac48d3d38ae\\output\\res\\values-ja\\values.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 1359,
+                        "endColumn": 127,
+                        "endOffset": 1482
+                    }
                 }
             },
             {
@@ -1787,7 +2011,14 @@
                     "endOffset": 3841
                 },
                 "from": {
-                    "file": "C:\\Users\\jhonts\\.android\\build-cache\\9d035c4b7ecbcd062e89e95f98defdb9b78832dd\\output\\res\\values-ja\\values.xml"
+                    "file": "C:\\Users\\jhonts\\.android\\build-cache\\9d035c4b7ecbcd062e89e95f98defdb9b78832dd\\output\\res\\values-ja\\values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 331,
+                        "endColumn": 196,
+                        "endOffset": 523
+                    }
                 }
             },
             {
@@ -1799,7 +2030,14 @@
                     "endOffset": 4044
                 },
                 "from": {
-                    "file": "C:\\Users\\jhonts\\.android\\build-cache\\a49524380c4a7d10174014a070c0eac48d3d38ae\\output\\res\\values-ja\\values.xml"
+                    "file": "C:\\Users\\jhonts\\.android\\build-cache\\a49524380c4a7d10174014a070c0eac48d3d38ae\\output\\res\\values-ja\\values.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 1487,
+                        "endColumn": 202,
+                        "endOffset": 1685
+                    }
                 }
             },
             {
@@ -1811,7 +2049,14 @@
                     "endOffset": 4166
                 },
                 "from": {
-                    "file": "C:\\Users\\jhonts\\.android\\build-cache\\a49524380c4a7d10174014a070c0eac48d3d38ae\\output\\res\\values-ja\\values.xml"
+                    "file": "C:\\Users\\jhonts\\.android\\build-cache\\a49524380c4a7d10174014a070c0eac48d3d38ae\\output\\res\\values-ja\\values.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 1690,
+                        "endColumn": 121,
+                        "endOffset": 1807
+                    }
                 }
             },
             {
@@ -1823,7 +2068,14 @@
                     "endOffset": 4269
                 },
                 "from": {
-                    "file": "C:\\Users\\jhonts\\.android\\build-cache\\a49524380c4a7d10174014a070c0eac48d3d38ae\\output\\res\\values-ja\\values.xml"
+                    "file": "C:\\Users\\jhonts\\.android\\build-cache\\a49524380c4a7d10174014a070c0eac48d3d38ae\\output\\res\\values-ja\\values.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 1812,
+                        "endColumn": 102,
+                        "endOffset": 1910
+                    }
                 }
             },
             {
@@ -1835,7 +2087,14 @@
                     "endOffset": 4433
                 },
                 "from": {
-                    "file": "C:\\Users\\jhonts\\.android\\build-cache\\a49524380c4a7d10174014a070c0eac48d3d38ae\\output\\res\\values-ja\\values.xml"
+                    "file": "C:\\Users\\jhonts\\.android\\build-cache\\a49524380c4a7d10174014a070c0eac48d3d38ae\\output\\res\\values-ja\\values.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 1915,
+                        "endColumn": 163,
+                        "endOffset": 2074
+                    }
                 }
             },
             {
@@ -1847,7 +2106,14 @@
                     "endOffset": 4554
                 },
                 "from": {
-                    "file": "C:\\Users\\jhonts\\.android\\build-cache\\a49524380c4a7d10174014a070c0eac48d3d38ae\\output\\res\\values-ja\\values.xml"
+                    "file": "C:\\Users\\jhonts\\.android\\build-cache\\a49524380c4a7d10174014a070c0eac48d3d38ae\\output\\res\\values-ja\\values.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 2079,
+                        "endColumn": 120,
+                        "endOffset": 2195
+                    }
                 }
             },
             {
@@ -1859,7 +2125,14 @@
                     "endOffset": 4733
                 },
                 "from": {
-                    "file": "C:\\Users\\jhonts\\.android\\build-cache\\a49524380c4a7d10174014a070c0eac48d3d38ae\\output\\res\\values-ja\\values.xml"
+                    "file": "C:\\Users\\jhonts\\.android\\build-cache\\a49524380c4a7d10174014a070c0eac48d3d38ae\\output\\res\\values-ja\\values.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 2200,
+                        "endColumn": 178,
+                        "endOffset": 2374
+                    }
                 }
             },
             {
@@ -1871,7 +2144,14 @@
                     "endOffset": 4857
                 },
                 "from": {
-                    "file": "C:\\Users\\jhonts\\.android\\build-cache\\a49524380c4a7d10174014a070c0eac48d3d38ae\\output\\res\\values-ja\\values.xml"
+                    "file": "C:\\Users\\jhonts\\.android\\build-cache\\a49524380c4a7d10174014a070c0eac48d3d38ae\\output\\res\\values-ja\\values.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 2379,
+                        "endColumn": 123,
+                        "endOffset": 2498
+                    }
                 }
             },
             {
@@ -1883,7 +2163,14 @@
                     "endOffset": 5007
                 },
                 "from": {
-                    "file": "C:\\Users\\jhonts\\.android\\build-cache\\a49524380c4a7d10174014a070c0eac48d3d38ae\\output\\res\\values-ja\\values.xml"
+                    "file": "C:\\Users\\jhonts\\.android\\build-cache\\a49524380c4a7d10174014a070c0eac48d3d38ae\\output\\res\\values-ja\\values.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 2503,
+                        "endColumn": 149,
+                        "endOffset": 2648
+                    }
                 }
             },
             {
@@ -1895,7 +2182,14 @@
                     "endOffset": 5097
                 },
                 "from": {
-                    "file": "C:\\Users\\jhonts\\.android\\build-cache\\a49524380c4a7d10174014a070c0eac48d3d38ae\\output\\res\\values-ja\\values.xml"
+                    "file": "C:\\Users\\jhonts\\.android\\build-cache\\a49524380c4a7d10174014a070c0eac48d3d38ae\\output\\res\\values-ja\\values.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 2653,
+                        "endColumn": 89,
+                        "endOffset": 2738
+                    }
                 }
             },
             {
@@ -1907,7 +2201,14 @@
                     "endOffset": 5186
                 },
                 "from": {
-                    "file": "C:\\Users\\jhonts\\.android\\build-cache\\a49524380c4a7d10174014a070c0eac48d3d38ae\\output\\res\\values-ja\\values.xml"
+                    "file": "C:\\Users\\jhonts\\.android\\build-cache\\a49524380c4a7d10174014a070c0eac48d3d38ae\\output\\res\\values-ja\\values.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 4,
+                        "startOffset": 2743,
+                        "endColumn": 88,
+                        "endOffset": 2827
+                    }
                 }
             },
             {
@@ -1919,7 +2220,14 @@
                     "endOffset": 5286
                 },
                 "from": {
-                    "file": "C:\\Users\\jhonts\\.android\\build-cache\\a49524380c4a7d10174014a070c0eac48d3d38ae\\output\\res\\values-ja\\values.xml"
+                    "file": "C:\\Users\\jhonts\\.android\\build-cache\\a49524380c4a7d10174014a070c0eac48d3d38ae\\output\\res\\values-ja\\values.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 4,
+                        "startOffset": 2832,
+                        "endColumn": 99,
+                        "endOffset": 2927
+                    }
                 }
             },
             {
@@ -1931,7 +2239,14 @@
                     "endOffset": 5352
                 },
                 "from": {
-                    "file": "C:\\Users\\jhonts\\Desktop\\flappyDuck\\flutterDuck\\app\\src\\main\\res\\values-ja\\strings.xml"
+                    "file": "C:\\Users\\jhonts\\Desktop\\flappyDuck\\flutterDuck\\app\\src\\main\\res\\values-ja\\strings.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 837,
+                        "endColumn": 65,
+                        "endOffset": 898
+                    }
                 }
             },
             {
@@ -1943,7 +2258,14 @@
                     "endOffset": 5404
                 },
                 "from": {
-                    "file": "C:\\Users\\jhonts\\Desktop\\flappyDuck\\flutterDuck\\app\\src\\main\\res\\values-ja\\strings.xml"
+                    "file": "C:\\Users\\jhonts\\Desktop\\flappyDuck\\flutterDuck\\app\\src\\main\\res\\values-ja\\strings.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 159,
+                        "endColumn": 51,
+                        "endOffset": 206
+                    }
                 }
             },
             {
@@ -1955,7 +2277,14 @@
                     "endOffset": 5468
                 },
                 "from": {
-                    "file": "C:\\Users\\jhonts\\Desktop\\flappyDuck\\flutterDuck\\app\\src\\main\\res\\values-ja\\strings.xml"
+                    "file": "C:\\Users\\jhonts\\Desktop\\flappyDuck\\flutterDuck\\app\\src\\main\\res\\values-ja\\strings.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 709,
+                        "endColumn": 63,
+                        "endOffset": 768
+                    }
                 }
             },
             {
@@ -1967,7 +2296,14 @@
                     "endOffset": 5833
                 },
                 "from": {
-                    "file": "C:\\Users\\jhonts\\Desktop\\flappyDuck\\flutterDuck\\app\\src\\main\\res\\values-ja\\strings.xml"
+                    "file": "C:\\Users\\jhonts\\Desktop\\flappyDuck\\flutterDuck\\app\\src\\main\\res\\values-ja\\strings.xml",
+                    "position": {
+                        "startLine": 35,
+                        "startColumn": 4,
+                        "startOffset": 2485,
+                        "endColumn": 364,
+                        "endOffset": 2845
+                    }
                 }
             },
             {
@@ -1979,7 +2315,14 @@
                     "endOffset": 5909
                 },
                 "from": {
-                    "file": "C:\\Users\\jhonts\\Desktop\\flappyDuck\\flutterDuck\\app\\src\\main\\res\\values-ja\\strings.xml"
+                    "file": "C:\\Users\\jhonts\\Desktop\\flappyDuck\\flutterDuck\\app\\src\\main\\res\\values-ja\\strings.xml",
+                    "position": {
+                        "startLine": 36,
+                        "startColumn": 4,
+                        "startOffset": 2851,
+                        "endColumn": 75,
+                        "endOffset": 2922
+                    }
                 }
             },
             {
@@ -1991,7 +2334,14 @@
                     "endOffset": 6034
                 },
                 "from": {
-                    "file": "C:\\Users\\jhonts\\Desktop\\flappyDuck\\flutterDuck\\app\\src\\main\\res\\values-ja\\strings.xml"
+                    "file": "C:\\Users\\jhonts\\Desktop\\flappyDuck\\flutterDuck\\app\\src\\main\\res\\values-ja\\strings.xml",
+                    "position": {
+                        "startLine": 34,
+                        "startColumn": 4,
+                        "startOffset": 2359,
+                        "endColumn": 124,
+                        "endOffset": 2479
+                    }
                 }
             },
             {
@@ -2003,7 +2353,14 @@
                     "endOffset": 6102
                 },
                 "from": {
-                    "file": "C:\\Users\\jhonts\\Desktop\\flappyDuck\\flutterDuck\\app\\src\\main\\res\\values-ja\\strings.xml"
+                    "file": "C:\\Users\\jhonts\\Desktop\\flappyDuck\\flutterDuck\\app\\src\\main\\res\\values-ja\\strings.xml",
+                    "position": {
+                        "startLine": 37,
+                        "startColumn": 4,
+                        "startOffset": 2928,
+                        "endColumn": 67,
+                        "endOffset": 2991
+                    }
                 }
             },
             {
@@ -2015,7 +2372,14 @@
                     "endOffset": 6164
                 },
                 "from": {
-                    "file": "C:\\Users\\jhonts\\Desktop\\flappyDuck\\flutterDuck\\app\\src\\main\\res\\values-ja\\strings.xml"
+                    "file": "C:\\Users\\jhonts\\Desktop\\flappyDuck\\flutterDuck\\app\\src\\main\\res\\values-ja\\strings.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 774,
+                        "endColumn": 61,
+                        "endOffset": 831
+                    }
                 }
             },
             {
@@ -2027,7 +2391,14 @@
                     "endOffset": 6213
                 },
                 "from": {
-                    "file": "C:\\Users\\jhonts\\Desktop\\flappyDuck\\flutterDuck\\app\\src\\main\\res\\values-ja\\strings.xml"
+                    "file": "C:\\Users\\jhonts\\Desktop\\flappyDuck\\flutterDuck\\app\\src\\main\\res\\values-ja\\strings.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 904,
+                        "endColumn": 48,
+                        "endOffset": 948
+                    }
                 }
             },
             {
@@ -2039,7 +2410,14 @@
                     "endOffset": 6278
                 },
                 "from": {
-                    "file": "C:\\Users\\jhonts\\Desktop\\flappyDuck\\flutterDuck\\app\\src\\main\\res\\values-ja\\strings.xml"
+                    "file": "C:\\Users\\jhonts\\Desktop\\flappyDuck\\flutterDuck\\app\\src\\main\\res\\values-ja\\strings.xml",
+                    "position": {
+                        "startLine": 32,
+                        "startColumn": 4,
+                        "startOffset": 2235,
+                        "endColumn": 64,
+                        "endOffset": 2295
+                    }
                 }
             },
             {
@@ -2051,7 +2429,14 @@
                     "endOffset": 6324
                 },
                 "from": {
-                    "file": "C:\\Users\\jhonts\\Desktop\\flappyDuck\\flutterDuck\\app\\src\\main\\res\\values-ja\\strings.xml"
+                    "file": "C:\\Users\\jhonts\\Desktop\\flappyDuck\\flutterDuck\\app\\src\\main\\res\\values-ja\\strings.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 267,
+                        "endColumn": 45,
+                        "endOffset": 308
+                    }
                 }
             },
             {
@@ -2063,7 +2448,14 @@
                     "endOffset": 6380
                 },
                 "from": {
-                    "file": "C:\\Users\\jhonts\\Desktop\\flappyDuck\\flutterDuck\\app\\src\\main\\res\\values-ja\\strings.xml"
+                    "file": "C:\\Users\\jhonts\\Desktop\\flappyDuck\\flutterDuck\\app\\src\\main\\res\\values-ja\\strings.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 652,
+                        "endColumn": 55,
+                        "endOffset": 703
+                    }
                 }
             },
             {
@@ -2075,7 +2467,14 @@
                     "endOffset": 6497
                 },
                 "from": {
-                    "file": "C:\\Users\\jhonts\\Desktop\\flappyDuck\\flutterDuck\\app\\src\\main\\res\\values-ja\\strings.xml"
+                    "file": "C:\\Users\\jhonts\\Desktop\\flappyDuck\\flutterDuck\\app\\src\\main\\res\\values-ja\\strings.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 4,
+                        "startOffset": 1035,
+                        "endColumn": 116,
+                        "endOffset": 1147
+                    }
                 }
             },
             {
@@ -2087,7 +2486,14 @@
                     "endOffset": 6570
                 },
                 "from": {
-                    "file": "C:\\Users\\jhonts\\Desktop\\flappyDuck\\flutterDuck\\app\\src\\main\\res\\values-ja\\strings.xml"
+                    "file": "C:\\Users\\jhonts\\Desktop\\flappyDuck\\flutterDuck\\app\\src\\main\\res\\values-ja\\strings.xml",
+                    "position": {
+                        "startLine": 24,
+                        "startColumn": 4,
+                        "startOffset": 1260,
+                        "endColumn": 72,
+                        "endOffset": 1328
+                    }
                 }
             },
             {
@@ -2099,7 +2505,14 @@
                     "endOffset": 6622
                 },
                 "from": {
-                    "file": "C:\\Users\\jhonts\\Desktop\\flappyDuck\\flutterDuck\\app\\src\\main\\res\\values-ja\\strings.xml"
+                    "file": "C:\\Users\\jhonts\\Desktop\\flappyDuck\\flutterDuck\\app\\src\\main\\res\\values-ja\\strings.xml",
+                    "position": {
+                        "startLine": 23,
+                        "startColumn": 4,
+                        "startOffset": 1207,
+                        "endColumn": 51,
+                        "endOffset": 1254
+                    }
                 }
             },
             {
@@ -2111,7 +2524,14 @@
                     "endOffset": 6675
                 },
                 "from": {
-                    "file": "C:\\Users\\jhonts\\Desktop\\flappyDuck\\flutterDuck\\app\\src\\main\\res\\values-ja\\strings.xml"
+                    "file": "C:\\Users\\jhonts\\Desktop\\flappyDuck\\flutterDuck\\app\\src\\main\\res\\values-ja\\strings.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 4,
+                        "startOffset": 1153,
+                        "endColumn": 52,
+                        "endOffset": 1201
+                    }
                 }
             },
             {
@@ -2123,7 +2543,14 @@
                     "endOffset": 6729
                 },
                 "from": {
-                    "file": "C:\\Users\\jhonts\\Desktop\\flappyDuck\\flutterDuck\\app\\src\\main\\res\\values-ja\\strings.xml"
+                    "file": "C:\\Users\\jhonts\\Desktop\\flappyDuck\\flutterDuck\\app\\src\\main\\res\\values-ja\\strings.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 314,
+                        "endColumn": 53,
+                        "endOffset": 363
+                    }
                 }
             },
             {
@@ -2135,7 +2562,14 @@
                     "endOffset": 6782
                 },
                 "from": {
-                    "file": "C:\\Users\\jhonts\\Desktop\\flappyDuck\\flutterDuck\\app\\src\\main\\res\\values-ja\\strings.xml"
+                    "file": "C:\\Users\\jhonts\\Desktop\\flappyDuck\\flutterDuck\\app\\src\\main\\res\\values-ja\\strings.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 469,
+                        "endColumn": 52,
+                        "endOffset": 517
+                    }
                 }
             },
             {
@@ -2147,7 +2581,14 @@
                     "endOffset": 6869
                 },
                 "from": {
-                    "file": "C:\\Users\\jhonts\\Desktop\\flappyDuck\\flutterDuck\\app\\src\\main\\res\\values-ja\\strings.xml"
+                    "file": "C:\\Users\\jhonts\\Desktop\\flappyDuck\\flutterDuck\\app\\src\\main\\res\\values-ja\\strings.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 523,
+                        "endColumn": 86,
+                        "endOffset": 605
+                    }
                 }
             },
             {
@@ -2159,7 +2600,14 @@
                     "endOffset": 6947
                 },
                 "from": {
-                    "file": "C:\\Users\\jhonts\\.android\\build-cache\\008957a58e8ae6afd169392f2000bd28b2e0fe24\\output\\res\\values-ja\\values-ja.xml"
+                    "file": "C:\\Users\\jhonts\\.android\\build-cache\\008957a58e8ae6afd169392f2000bd28b2e0fe24\\output\\res\\values-ja\\values-ja.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 4,
+                        "startOffset": 1895,
+                        "endColumn": 77,
+                        "endOffset": 1968
+                    }
                 }
             },
             {
@@ -2171,7 +2619,14 @@
                     "endOffset": 7061
                 },
                 "from": {
-                    "file": "C:\\Users\\jhonts\\Desktop\\flappyDuck\\flutterDuck\\app\\src\\main\\res\\values-ja\\strings.xml"
+                    "file": "C:\\Users\\jhonts\\Desktop\\flappyDuck\\flutterDuck\\app\\src\\main\\res\\values-ja\\strings.xml",
+                    "position": {
+                        "startLine": 30,
+                        "startColumn": 4,
+                        "startOffset": 1765,
+                        "endColumn": 113,
+                        "endOffset": 1874
+                    }
                 }
             },
             {
@@ -2183,7 +2638,14 @@
                     "endOffset": 7141
                 },
                 "from": {
-                    "file": "C:\\Users\\jhonts\\Desktop\\flappyDuck\\flutterDuck\\app\\src\\main\\res\\values-ja\\strings.xml"
+                    "file": "C:\\Users\\jhonts\\Desktop\\flappyDuck\\flutterDuck\\app\\src\\main\\res\\values-ja\\strings.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 954,
+                        "endColumn": 79,
+                        "endOffset": 1029
+                    }
                 }
             },
             {
@@ -2195,7 +2657,14 @@
                     "endOffset": 7242
                 },
                 "from": {
-                    "file": "C:\\Users\\jhonts\\.android\\build-cache\\008957a58e8ae6afd169392f2000bd28b2e0fe24\\output\\res\\values-ja\\values-ja.xml"
+                    "file": "C:\\Users\\jhonts\\.android\\build-cache\\008957a58e8ae6afd169392f2000bd28b2e0fe24\\output\\res\\values-ja\\values-ja.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 4,
+                        "startOffset": 1973,
+                        "endColumn": 100,
+                        "endOffset": 2069
+                    }
                 }
             },
             {
@@ -2207,7 +2676,14 @@
                     "endOffset": 7328
                 },
                 "from": {
-                    "file": "C:\\Users\\jhonts\\Desktop\\flappyDuck\\flutterDuck\\app\\src\\main\\res\\values-ja\\strings.xml"
+                    "file": "C:\\Users\\jhonts\\Desktop\\flappyDuck\\flutterDuck\\app\\src\\main\\res\\values-ja\\strings.xml",
+                    "position": {
+                        "startLine": 25,
+                        "startColumn": 4,
+                        "startOffset": 1334,
+                        "endColumn": 85,
+                        "endOffset": 1415
+                    }
                 }
             },
             {
@@ -2219,7 +2695,14 @@
                     "endOffset": 7410
                 },
                 "from": {
-                    "file": "C:\\Users\\jhonts\\Desktop\\flappyDuck\\flutterDuck\\app\\src\\main\\res\\values-ja\\strings.xml"
+                    "file": "C:\\Users\\jhonts\\Desktop\\flappyDuck\\flutterDuck\\app\\src\\main\\res\\values-ja\\strings.xml",
+                    "position": {
+                        "startLine": 27,
+                        "startColumn": 4,
+                        "startOffset": 1520,
+                        "endColumn": 81,
+                        "endOffset": 1597
+                    }
                 }
             },
             {
@@ -2231,7 +2714,14 @@
                     "endOffset": 7488
                 },
                 "from": {
-                    "file": "C:\\Users\\jhonts\\Desktop\\flappyDuck\\flutterDuck\\app\\src\\main\\res\\values-ja\\strings.xml"
+                    "file": "C:\\Users\\jhonts\\Desktop\\flappyDuck\\flutterDuck\\app\\src\\main\\res\\values-ja\\strings.xml",
+                    "position": {
+                        "startLine": 29,
+                        "startColumn": 4,
+                        "startOffset": 1686,
+                        "endColumn": 77,
+                        "endOffset": 1759
+                    }
                 }
             },
             {
@@ -2243,7 +2733,14 @@
                     "endOffset": 7570
                 },
                 "from": {
-                    "file": "C:\\Users\\jhonts\\Desktop\\flappyDuck\\flutterDuck\\app\\src\\main\\res\\values-ja\\strings.xml"
+                    "file": "C:\\Users\\jhonts\\Desktop\\flappyDuck\\flutterDuck\\app\\src\\main\\res\\values-ja\\strings.xml",
+                    "position": {
+                        "startLine": 28,
+                        "startColumn": 4,
+                        "startOffset": 1603,
+                        "endColumn": 81,
+                        "endOffset": 1680
+                    }
                 }
             },
             {
@@ -2255,7 +2752,14 @@
                     "endOffset": 7668
                 },
                 "from": {
-                    "file": "C:\\Users\\jhonts\\Desktop\\flappyDuck\\flutterDuck\\app\\src\\main\\res\\values-ja\\strings.xml"
+                    "file": "C:\\Users\\jhonts\\Desktop\\flappyDuck\\flutterDuck\\app\\src\\main\\res\\values-ja\\strings.xml",
+                    "position": {
+                        "startLine": 26,
+                        "startColumn": 4,
+                        "startOffset": 1421,
+                        "endColumn": 97,
+                        "endOffset": 1514
+                    }
                 }
             },
             {
@@ -2267,7 +2771,14 @@
                     "endOffset": 7725
                 },
                 "from": {
-                    "file": "C:\\Users\\jhonts\\Desktop\\flappyDuck\\flutterDuck\\app\\src\\main\\res\\values-ja\\strings.xml"
+                    "file": "C:\\Users\\jhonts\\Desktop\\flappyDuck\\flutterDuck\\app\\src\\main\\res\\values-ja\\strings.xml",
+                    "position": {
+                        "startLine": 33,
+                        "startColumn": 4,
+                        "startOffset": 2301,
+                        "endColumn": 56,
+                        "endOffset": 2353
+                    }
                 }
             }
         ]

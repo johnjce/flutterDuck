@@ -9,7 +9,7 @@
     android:versionName="3.2.1" >
 
     <uses-sdk
-        android:minSdkVersion="15"
+        android:minSdkVersion="16"
         android:targetSdkVersion="24" />
 
     <!-- Remove the following permissions, if you don't want ads -->

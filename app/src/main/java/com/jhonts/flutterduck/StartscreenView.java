@@ -1,6 +1,4 @@
-/**
- * Splashscreen with buttons.
- * 
+/*
  * @author John Jairo Castaño Echeverri
  * Copyright (c) <2017> <jjce- ..::jhonts::..>
  */
@@ -14,22 +12,22 @@ import android.view.MotionEvent;
 import android.view.View;
 
 public class StartscreenView extends View{
-    
+
     private static Bitmap splash = null;
     private static Bitmap play = null;
     private static Bitmap achievements = null;
-    private static Bitmap leaderBoard = null;
+  //  private static Bitmap leaderBoard = null;
     private static Bitmap speaker = null;
     private static Bitmap info = null;
     private static Bitmap socket = null;
     
     // Button regions: left, top, right, bottom
-    private final static float[] REGION_PLAY = {169/720.0f, 400/1280f, 553/720.0f, 510/1280.0f};
+    private final static float[] REGION_PLAY = {169/720.0f, 400/1280f, 553/720.0f, 510/1280.0f};//l,t,r,d
     private final static float[] REGION_INFO = {585/720.0f, 1141/1280f, 700/720.0f, 1256/1280.0f};
     private final static float[] REGION_SPEAKER = {25/720.0f, 1140/1280f, 140/720.0f, 1255/1280.0f};
     private final static float[] REGION_SOCKET = {233/720.0f, 1149/1280f, 487/720.0f, 1248/1280.0f};
-    private final static float[] REGION_ACHIEVEMENT = {176/720.0f, 709/1280f, 316/720.0f, 849/1280.0f};
-    private final static float[] REGION_LEADERBOARD = {413/720.0f, 708/1280f, 553/720.0f, 849/1280.0f};
+    private final static float[] REGION_ACHIEVEMENT = {283/720.0f, 1050/1280f, 427/720.0f, 1148/1280.0f};
+   // private final static float[] REGION_LEADERBOARD = {413/720.0f, 708/1280f, 553/720.0f, 849/1280.0f};
     
     private Rect dstSplash;
     private Rect srcSplash;
@@ -37,16 +35,15 @@ public class StartscreenView extends View{
     private Rect srcPlay;
     private Rect dstAchievements;
     private Rect srcAchievements;
-    private Rect dstLeaderBoard;
-    private Rect srcLeaderBoard;
+//    private Rect dstLeaderBoard;
+//    private Rect srcLeaderBoard;
     private Rect dstSpeaker;
     private Rect srcSpeaker;
     private Rect dstInfo;
     private Rect srcInfo;
     private Rect dstSocket;
     private Rect srcSocket;
-    
-    private boolean online;
+    private Game game = getGame();
     private MainActivity mainActivity;
 
     public StartscreenView(MainActivity context) {
@@ -64,10 +61,10 @@ public class StartscreenView extends View{
             achievements = Util.getBitmapAlpha8(mainActivity, R.drawable.achievement_button);
         }
         srcAchievements = new Rect(0, 0, achievements.getWidth(), achievements.getHeight());
-        if(leaderBoard == null) {
+        /*if(leaderBoard == null) {
             leaderBoard = Util.getBitmapAlpha8(mainActivity, R.drawable.highscore_button);
         }
-        srcLeaderBoard = new Rect(0, 0, leaderBoard.getWidth(), leaderBoard.getHeight());
+        srcLeaderBoard = new Rect(0, 0, leaderBoard.getWidth(), leaderBoard.getHeight());*/
         if(speaker == null) {
             speaker = Util.getBitmapAlpha8(mainActivity, R.drawable.speaker);
         }
@@ -103,7 +100,7 @@ public class StartscreenView extends View{
         canvas.drawBitmap(speaker, srcSpeaker, dstSpeaker, null);
         canvas.drawBitmap(info, srcInfo, dstInfo, null);
         canvas.drawBitmap(socket, srcSocket, dstSocket, null);
-        //canvas.drawBitmap(achievements, srcAchievements, dstAchievements, null);
+        canvas.drawBitmap(achievements, srcAchievements, dstAchievements, null);
         //canvas.drawBitmap(leaderBoard, srcLeaderBoard, dstLeaderBoard, null);
     }
     
@@ -124,10 +121,10 @@ public class StartscreenView extends View{
                                     (int)(getHeight()*REGION_ACHIEVEMENT[1]),
                                     (int)(getWidth()*REGION_ACHIEVEMENT[2]),
                                     (int)(getHeight()*REGION_ACHIEVEMENT[3]));
-        dstLeaderBoard = new Rect(    (int)(getWidth()* REGION_LEADERBOARD[0]),
+        /*dstLeaderBoard = new Rect(    (int)(getWidth()* REGION_LEADERBOARD[0]),
                                     (int)(getHeight()* REGION_LEADERBOARD[1]),
                                     (int)(getWidth()* REGION_LEADERBOARD[2]),
-                                    (int)(getHeight()* REGION_LEADERBOARD[3]));
+                                    (int)(getHeight()* REGION_LEADERBOARD[3]));*/
         dstSpeaker = new Rect(    (int)(getWidth()*REGION_SPEAKER[0]),
                                 (int)(getHeight()*REGION_SPEAKER[1]),
                                 (int)(getWidth()*REGION_SPEAKER[2]),
@@ -155,13 +152,13 @@ public class StartscreenView extends View{
                     && (event.getX() < REGION_ACHIEVEMENT[2] * getWidth())
                     && (event.getY() > REGION_ACHIEVEMENT[1] * getHeight())
                     && (event.getY() < REGION_ACHIEVEMENT[3] * getHeight()) ) {
-                //mainActivity.startActivity(new Intent("com.jhonts.flutterduck.Achievement"));//logros
-            } else if(    (event.getX() > REGION_LEADERBOARD[0] * getWidth())
+                new Achievement(this.mainActivity,R.style.ThemeOverlay_AppCompat_Dialog);
+            } /*else if(    (event.getX() > REGION_LEADERBOARD[0] * getWidth())
                     && (event.getX() < REGION_LEADERBOARD[2] * getWidth())
                     && (event.getY() > REGION_LEADERBOARD[1] * getHeight())
                     && (event.getY() < REGION_LEADERBOARD[3] * getHeight()) ) {
                 //mainActivity.startActivity(new Intent("com.jhonts.flutterduck.LeaderBoard"));//puntuaciones
-            } else if(    (event.getX() > REGION_SPEAKER[0] * getWidth())
+            } */else if(    (event.getX() > REGION_SPEAKER[0] * getWidth())
                     && (event.getX() < REGION_SPEAKER[2] * getWidth())
                     && (event.getY() > REGION_SPEAKER[1] * getHeight())
                     && (event.getY() < REGION_SPEAKER[3] * getHeight()) ) {
@@ -176,4 +173,7 @@ public class StartscreenView extends View{
         return true;
     }
 
+    public Game getGame() {
+        return game;
+    }
 }

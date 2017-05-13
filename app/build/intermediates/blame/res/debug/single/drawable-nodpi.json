@@ -16,12 +16,12 @@
         "source": "C:\\Users\\jhonts\\Desktop\\flappyDuck\\flutterDuck\\app\\src\\main\\res\\drawable-nodpi\\accessory_scumbag.png"
     },
     {
-        "merged": "C:\\Users\\jhonts\\Desktop\\flappyDuck\\flutterDuck\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi\\duck.png",
-        "source": "C:\\Users\\jhonts\\Desktop\\flappyDuck\\flutterDuck\\app\\src\\main\\res\\drawable-nodpi\\duck.png"
-    },
-    {
         "merged": "C:\\Users\\jhonts\\Desktop\\flappyDuck\\flutterDuck\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi\\speaker.png",
         "source": "C:\\Users\\jhonts\\Desktop\\flappyDuck\\flutterDuck\\app\\src\\main\\res\\drawable-nodpi\\speaker.png"
+    },
+    {
+        "merged": "C:\\Users\\jhonts\\Desktop\\flappyDuck\\flutterDuck\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi\\duck.png",
+        "source": "C:\\Users\\jhonts\\Desktop\\flappyDuck\\flutterDuck\\app\\src\\main\\res\\drawable-nodpi\\duck.png"
     },
     {
         "merged": "C:\\Users\\jhonts\\Desktop\\flappyDuck\\flutterDuck\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi\\sspider_full.png",
@@ -32,8 +32,16 @@
         "source": "C:\\Users\\jhonts\\Desktop\\flappyDuck\\flutterDuck\\app\\src\\main\\res\\drawable-nodpi\\bbg.png"
     },
     {
+        "merged": "C:\\Users\\jhonts\\Desktop\\flappyDuck\\flutterDuck\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi\\uncheck.png",
+        "source": "C:\\Users\\jhonts\\Desktop\\flappyDuck\\flutterDuck\\app\\src\\main\\res\\drawable-nodpi\\uncheck.png"
+    },
+    {
         "merged": "C:\\Users\\jhonts\\Desktop\\flappyDuck\\flutterDuck\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi\\play_button.png",
         "source": "C:\\Users\\jhonts\\Desktop\\flappyDuck\\flutterDuck\\app\\src\\main\\res\\drawable-nodpi\\play_button.png"
+    },
+    {
+        "merged": "C:\\Users\\jhonts\\Desktop\\flappyDuck\\flutterDuck\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi\\check.png",
+        "source": "C:\\Users\\jhonts\\Desktop\\flappyDuck\\flutterDuck\\app\\src\\main\\res\\drawable-nodpi\\check.png"
     },
     {
         "merged": "C:\\Users\\jhonts\\Desktop\\flutterDuck\\flutterDuck\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi\\accessory_scumbag.png",

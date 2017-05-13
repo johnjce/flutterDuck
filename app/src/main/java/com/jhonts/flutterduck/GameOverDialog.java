@@ -15,15 +15,15 @@ import android.widget.TextView;
 
 
 public class GameOverDialog extends Dialog {
-    public static final int REVIVE_PRICE = 5;
-    public static final String score_save_name = "score_save";
-    public static final String best_score_key = "score";
+    private static final int REVIVE_PRICE = 5;
+    static final String score_save_name = "score_save";
+    static final String best_score_key = "score";
     private Game game;
 
     private TextView tvCurrentScoreVal;
     private TextView tvBestScoreVal;
 
-    public GameOverDialog(Game game) {
+    GameOverDialog(Game game) {
         super(game);
         this.game = game;
         this.setContentView(R.layout.gameover);
@@ -32,7 +32,7 @@ public class GameOverDialog extends Dialog {
         tvCurrentScoreVal = (TextView) findViewById(R.id.tv_current_score_value);
         tvBestScoreVal = (TextView) findViewById(R.id.tv_best_score_value);
     }
-    
+
     public void init(){
         Button okButton = (Button) findViewById(R.id.b_ok);
         okButton.setOnClickListener(new View.OnClickListener() {
@@ -107,7 +107,7 @@ public class GameOverDialog extends Dialog {
                 editor.putInt(MainActivity.medaille_key, 1);
             }
         }else{
-            ((ImageView)findViewById(R.id.medaille)).setVisibility(View.INVISIBLE);
+            findViewById(R.id.medaille).setVisibility(View.INVISIBLE);
         }
         editor.commit();
     }
@@ -119,5 +119,5 @@ public class GameOverDialog extends Dialog {
         editor.putInt(Game.coin_key, game.coins);
         editor.commit();
     }
-    
+
 }

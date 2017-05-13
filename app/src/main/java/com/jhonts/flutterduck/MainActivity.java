@@ -8,11 +8,15 @@ package com.jhonts.flutterduck;
 
 import android.content.SharedPreferences;
 import android.os.Bundle;
+import android.util.Log;
 
 import com.apptracker.android.listener.AppModuleListener;
 import com.apptracker.android.track.AppTracker;
 import com.google.android.gms.common.api.GoogleApiClient;
 import com.google.example.games.basegameutils.BaseGameActivity;
+
+import static com.jhonts.flutterduck.GameOverDialog.best_score_key;
+import static com.jhonts.flutterduck.GameOverDialog.score_save_name;
 
 public class MainActivity extends BaseGameActivity {
     /**----------------publicidad------------------**/
@@ -20,18 +24,19 @@ public class MainActivity extends BaseGameActivity {
     private static final String LOCATION_CODE		    = "inapp";
     /*----------------publicidad------------------**/
 
-
-
     public static final String medaille_save = "medaille_save";
+    public static final String coins = "coins";
     public static final String medaille_key = "medaille_key";
     public static final float DEFAULT_VOLUME = 0.3f;
     public static float volume = DEFAULT_VOLUME;
     private StartscreenView view;
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         view = new StartscreenView(this);
+        SharedPreferences saves = this.getSharedPreferences(score_save_name, 0);
+        Achievement.best_score = saves.getInt(best_score_key, 0); //mejor puntaje en variable de pakage
         setContentView(view);
         setSocket();
         if(savedInstanceState == null){
@@ -48,7 +53,10 @@ public class MainActivity extends BaseGameActivity {
         @Override
         public void onModuleCached(final String placement) { }
         @Override
-        public void onModuleClicked(String placement) { }
+        public void onModuleClicked(String placement) {
+           // SharedPreferences saves = getSharedPreferences(coins, 0);
+            //view.setSocket(saves.getInt(coins, 0));
+        }
 
         @Override
         public void onModuleClosed(final String placement) { runOnUiThread(new Runnable() {
@@ -67,11 +75,7 @@ public class MainActivity extends BaseGameActivity {
         public void onModuleLoaded(String s) { }
 
         @Override
-        public void onMediaFinished(boolean b) {
-            //creando cache de publicidad
-            AppTracker.destroyModule();
-            AppTracker.loadModuleToCache(getApplicationContext(), LOCATION_CODE);
-        }
+        public void onMediaFinished(boolean b) { }
     };
     /**----------------publicidad------------------**/
 
