@@ -4,12 +4,12 @@
         "source": "C:\\Users\\jhonts\\.android\\build-cache\\008957a58e8ae6afd169392f2000bd28b2e0fe24\\output\\res\\layout\\select_dialog_multichoice_material.xml"
     },
     {
-        "merged": "C:\\Users\\jhonts\\Desktop\\flutterDuck\\flutterDuck\\BaseGameUtils\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view.xml",
-        "source": "C:\\Users\\jhonts\\.android\\build-cache\\008957a58e8ae6afd169392f2000bd28b2e0fe24\\output\\res\\layout\\abc_activity_chooser_view.xml"
-    },
-    {
         "merged": "C:\\Users\\jhonts\\Desktop\\flutterDuck\\flutterDuck\\BaseGameUtils\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines.xml",
         "source": "C:\\Users\\jhonts\\.android\\build-cache\\008957a58e8ae6afd169392f2000bd28b2e0fe24\\output\\res\\layout\\notification_template_lines.xml"
+    },
+    {
+        "merged": "C:\\Users\\jhonts\\Desktop\\flutterDuck\\flutterDuck\\BaseGameUtils\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view.xml",
+        "source": "C:\\Users\\jhonts\\.android\\build-cache\\008957a58e8ae6afd169392f2000bd28b2e0fe24\\output\\res\\layout\\abc_activity_chooser_view.xml"
     },
     {
         "merged": "C:\\Users\\jhonts\\Desktop\\flutterDuck\\flutterDuck\\BaseGameUtils\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
