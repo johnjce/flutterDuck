@@ -103,13 +103,9 @@ public class Game extends BaseGameActivity{
 
     public void increaseCoin(){
         this.coins+=10;
-        if(coins >= 50 && !accomplishmentBox.achievement_50_coins){
-            accomplishmentBox.achievement_50_coins = true;
-            if(getApiClient().isConnected()){
-                Games.Achievements.unlock(getApiClient(), getResources().getString(R.string.achievement_50_coins));
-            }else{
-                handler.sendMessage(Message.obtain(handler,1,R.string.toast_achievement_50_coins, MyHandler.SHOW_TOAST));
-            }
+        if(coins >= 500 && !accomplishmentBox.achievement_500_coins){
+            accomplishmentBox.achievement_500_coins = true;
+            handler.sendMessage(Message.obtain(handler,1,R.string.toast_achievement_500_coins, MyHandler.SHOW_TOAST));
         }
     }
 
@@ -145,6 +141,7 @@ public class Game extends BaseGameActivity{
             }
         }
     }
+
     class MyHandler extends Handler{
         public static final int GAME_OVER_DIALOG = 0;
         public static final int SHOW_TOAST = 1;

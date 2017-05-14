@@ -7,8 +7,8 @@ android {
         applicationId "com.jhonts.flutterduck"
         minSdkVersion 16
         targetSdkVersion 24
-        versionCode 30
-        versionName "3.2.1"
+        versionCode 31
+        versionName "3.2.2"
     }
     buildTypes {
         release {

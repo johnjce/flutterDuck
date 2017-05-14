@@ -109,7 +109,7 @@ public final class R {
         public static final int google_play_services_version = 0x7f0d0003;
     }
     public static final class string {
-        public static final int accept = 0x7f070056;
+        public static final int accept = 0x7f070060;
         public static final int common_google_play_services_enable_button = 0x7f070013;
         public static final int common_google_play_services_enable_text = 0x7f070014;
         public static final int common_google_play_services_enable_title = 0x7f070015;
@@ -130,11 +130,11 @@ public final class R {
         public static final int common_open_on_phone = 0x7f070024;
         public static final int common_signin_button_text = 0x7f070025;
         public static final int common_signin_button_text_long = 0x7f070026;
-        public static final int create_calendar_message = 0x7f07005f;
-        public static final int create_calendar_title = 0x7f070060;
-        public static final int decline = 0x7f070061;
-        public static final int store_picture_message = 0x7f070066;
-        public static final int store_picture_title = 0x7f070067;
+        public static final int create_calendar_message = 0x7f070069;
+        public static final int create_calendar_title = 0x7f07006a;
+        public static final int decline = 0x7f07006b;
+        public static final int store_picture_message = 0x7f070070;
+        public static final int store_picture_title = 0x7f070071;
     }
     public static final class style {
         public static final int Theme_IAPTheme = 0x7f0900fe;

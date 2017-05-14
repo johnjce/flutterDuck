@@ -21,6 +21,16 @@
     <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"Contraer"</string>
     <string name="about_back_button">Atras</string>
     <string name="about_button">Acerca</string>
+    <string name="achievement_500_coins">500 Monedas</string>
+    <string name="achievement_achievement">Logro</string>
+    <string name="achievement_best_points">Mejor puntaje:</string>
+    <string name="achievement_medail_bronze">Medalla de Bronce</string>
+    <string name="achievement_medail_gold">Medalla de Oro</string>
+    <string name="achievement_medail_silver">Medalla de Plata</string>
+    <string name="achievement_needed">Necesario</string>
+    <string name="achievement_nyancat">NyanCat</string>
+    <string name="achievement_points"> Pts </string>
+    <string name="achievement_toas">Tostada</string>
     <string name="app_misconfigured">The application is incorrectly configured. Check that the package name and signing certificate match the client ID created in Developer Console. Also, if the application is not yet published, check that the account you are trying to sign in with is listed as a tester account. See logs for more information.</string>
     <string name="best_score">Mejor:</string>
     <string name="coins">Monedas</string>
@@ -67,7 +77,7 @@
     <string name="sign_in_failed">Failed to sign in. Please check your network connection and try again.</string>
     <string name="source_code">web:\nhttps://johnjce.github.io/inicio/</string>
     <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"+999"</string>
-    <string name="toast_achievement_50_coins">Logro desbloqueado: 50 monedas</string>
+    <string name="toast_achievement_500_coins">Logro desbloqueado: 500 monedas</string>
     <string name="toast_achievement_bronze">Logro alcanzado: Bronze</string>
     <string name="toast_achievement_gold">Logro desbloqueado: Gold</string>
     <string name="toast_achievement_silver">Logro alzanzado: Silver</string>

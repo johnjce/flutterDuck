@@ -41,11 +41,10 @@ public class GameOverDialog extends Dialog {
             @Override
             public void onClick(View v) {
                 saveCoins();
-                if(game.numberOfRevive <= 1){
-                    game.accomplishmentBox.saveLocal(game);
-                }
+                game.accomplishmentBox.saveLocal(game);
                 // aqui llamo publicidad
                 if(AppTracker.isAdReady("inapp")) AppTracker.loadModule(getContext(), "inapp");
+                AppTracker.destroyModule();
                 dismiss();
                 game.finish();
             }

@@ -19,7 +19,7 @@
     <string name="onscreen_score_text">Puntos:</string>
     <string name="onscreen_coin_text">Mónedas:</string>
     <string name="on_back_press">Presiona atrás para intentarlo de nuevo</string>
-    <string name="toast_achievement_50_coins">Logro desbloqueado: 50 monedas</string>
+    <string name="toast_achievement_500_coins">Logro desbloqueado: 500 monedas</string>
     <string name="toast_achievement_toastification">Logro alcanzado: nyan cat</string>
     <string name="toast_achievement_bronze">Logro alcanzado: Bronze</string>
     <string name="toast_achievement_silver">Logro alzanzado: Silver</string>
@@ -32,4 +32,14 @@
     <string name="gamehelper_app_misconfigured">The application is incorrectly configured. Check that the package name and signing certificate match the client ID created in Developer Console. Also, if the application is not yet published, check that the account you are trying to sign in with is listed as a tester account. See logs for more information.</string>
     <string name="gamehelper_license_failed">License check failed.</string>
     <string name="gamehelper_unknown_error">Unknown error.</string>
+    <string name="achievement_toas">Tostada</string>
+    <string name="achievement_points"> Pts </string>
+    <string name="achievement_best_points">Mejor puntaje:</string>
+    <string name="achievement_nyancat">NyanCat</string>
+    <string name="achievement_medail_gold">Medalla de Oro</string>
+    <string name="achievement_medail_silver">Medalla de Plata</string>
+    <string name="achievement_medail_bronze">Medalla de Bronce</string>
+    <string name="achievement_achievement">Logro</string>
+    <string name="achievement_needed">Necesario</string>
+    <string name="achievement_500_coins">500 Monedas</string>
 </resources>

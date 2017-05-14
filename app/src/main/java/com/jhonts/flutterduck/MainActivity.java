@@ -20,8 +20,7 @@ import static com.jhonts.flutterduck.GameOverDialog.score_save_name;
 
 public class MainActivity extends BaseGameActivity {
     /**----------------publicidad------------------**/
-    private static final String APP_API_KEY 		    = "dAICGF8bVShbB7rYTaQs9vI7gLloSI1l"; // change this to your App specific API KEY
-    private static final String LOCATION_CODE		    = "inapp";
+    private static final String APP_API_KEY 		    = "pE5rOyLUvgj8s1StgNAhekGCYsQL5V9i"; //<-real - prueba-> // "dAICGF8bVShbB7rYTaQs9vI7gLloSI1l"; // change this to your App specific API KEY
     /*----------------publicidad------------------**/
 
     public static final String medaille_save = "medaille_save";
@@ -37,14 +36,13 @@ public class MainActivity extends BaseGameActivity {
         view = new StartscreenView(this);
         SharedPreferences saves = this.getSharedPreferences(score_save_name, 0);
         Achievement.best_score = saves.getInt(best_score_key, 0); //mejor puntaje en variable de pakage
+        saves = this.getSharedPreferences(medaille_key, 0);
+        Achievement.medals = saves.getInt(medaille_key, 0);
         setContentView(view);
         setSocket();
         if(savedInstanceState == null){
             AppTracker.setModuleListener(leadboltListener);
             AppTracker.startSession(getApplicationContext(), APP_API_KEY);
-            //creando cache de publicidad
-            AppTracker.destroyModule();
-            AppTracker.loadModuleToCache(getApplicationContext(), LOCATION_CODE);
         }
     }
 
@@ -62,16 +60,7 @@ public class MainActivity extends BaseGameActivity {
         }
 
         @Override
-        public void onModuleClosed(final String placement) { runOnUiThread(new Runnable() {
-            @Override
-            public void run() {
-                //creando cache de publicidad
-                // Add code here to resume game and/or all media including audio
-                AppTracker.destroyModule();
-                AppTracker.loadModuleToCache(getApplicationContext(), LOCATION_CODE);
-
-            }
-        }); }
+        public void onModuleClosed(final String placement) {}
 
         @Override
         public void onModuleFailed(String placement, String error, boolean isCache) { }
@@ -83,16 +72,7 @@ public class MainActivity extends BaseGameActivity {
         }
 
         @Override
-        public void onMediaFinished(boolean b) {
-            if(b) {
-                Log.i("AppTracker", "User finished watching rewarded video");
-            } else {
-                Log.i("AppTracker", "User skipped watching rewarded video");
-            }
-            //creando cache de publicidad
-            AppTracker.destroyModule();
-            AppTracker.loadModuleToCache(getApplicationContext(), LOCATION_CODE);
-        }
+        public void onMediaFinished(boolean b) { }
     };
     /**----------------publicidad------------------**/
 

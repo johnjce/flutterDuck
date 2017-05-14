@@ -28,7 +28,7 @@
     <string name="onscreen_score_text">Score:</string>
     <string name="onscreen_coin_text">Coins:</string>
     <string name="on_back_press">Press backbutton again to exit</string>
-    <string name="toast_achievement_50_coins">Achievement unlocked: 50 coins</string>
+    <string name="toast_achievement_500_coins">Achievement unlocked: 500 coins</string>
     <string name="toast_achievement_toastification">Achievement unlocked: Toastification</string>
     <string name="toast_achievement_bronze">Achievement unlocked: Bronze</string>
     <string name="toast_achievement_silver">Achievement unlocked: Silver</string>
@@ -42,4 +42,14 @@
     <string name="gamehelper_app_misconfigured">The application is incorrectly configured. Check that the package name and signing certificate match the client ID created in Developer Console. Also, if the application is not yet published, check that the account you are trying to sign in with is listed as a tester account. See logs for more information.</string>
     <string name="gamehelper_license_failed">License check failed.</string>
     <string name="gamehelper_unknown_error">Unknown error.</string>
+    <string name="achievement_500_coins">500 Coins</string>
+    <string name="achievement_toas">Toast</string>
+    <string name="achievement_points">Pts</string>
+    <string name="achievement_best_points">Best score:</string>
+    <string name="achievement_nyancat">NyanCat</string>
+    <string name="achievement_medail_gold">Gold medal</string>
+    <string name="achievement_medail_silver">Silver medal</string>
+    <string name="achievement_medail_bronze">Bronze medal</string>
+    <string name="achievement_achievement">Achievement</string>
+    <string name="achievement_needed">Neeed?</string>
 </resources>
